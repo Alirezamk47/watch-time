@@ -1,0 +1,19 @@
+{
+  "id": ".",
+  "name": "Watch Time | واچ‌تایم",
+  "short_name": "Watch Time",
+  "description": "ردیابی فیلم‌ها و سریال‌های دیده‌شده و محاسبه زمان تماشا",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0c12",
+  "theme_color": "#10111a",
+  "prefer_related_applications": false,
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
