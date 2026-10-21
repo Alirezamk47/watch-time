@@ -105,6 +105,7 @@ body.details-open .app{padding-bottom:28px}
 
 <div class="section-head"><h3>Your Watch Time</h3><span class="muted">Quick access</span></div>
 <div class="home-shortcuts">
+<button class="home-shortcut" data-goto="calendar"><span class="shortcut-icon">📅</span><span><strong>Release Calendar</strong><small>View all announced upcoming episodes by date, month by month</small></span><span class="shortcut-arrow">›</span></button>
 <button class="home-shortcut upcoming-spotlight" data-goto="upcoming"><span class="shortcut-icon">⏳</span><span style="min-width:0;position:relative;z-index:1"><span class="upcoming-pill">Release countdown</span><strong>Upcoming Movies, TV &amp; Anime</strong><small>See what is coming next, with release dates and a live day countdown.</small></span><span class="shortcut-arrow">›</span></button>
 <button class="home-shortcut" data-goto="recommendations"><span class="shortcut-icon">✦</span><span><strong>For You · Smart Picks</strong><small>Personalized movies, TV shows, and anime based on your taste</small></span><span class="shortcut-arrow">›</span></button>
 <button class="home-shortcut" data-goto="news"><span class="shortcut-icon">▤</span><span><strong>News &amp; Updates</strong><small>Latest anime, movie, and TV news</small></span><span class="shortcut-arrow">›</span></button>
@@ -174,7 +175,7 @@ body.details-open .app{padding-bottom:28px}
 <div class="detail-toolbar"><button class="detail-back" id="detailBack" type="button">← Back</button><div><strong id="detailPageHeading">Title details</strong><div class="hint">Your title, your progress</div></div></div>
 <div id="detailContent" class="detail-page-content"><div class="empty">Choose a title to view its details.</div></div>
 </section>
-<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Settings</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.28</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new in v1.28</h3><ul><li>Added a Release Calendar for announced upcoming TV episodes and seasons.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored locally in this browser. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div></section>
+<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Settings</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.29</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new in v1.29</h3><ul><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored locally in this browser. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div></section>
 <section id="page-settings" class="hidden"><div class="section-head"><h3 data-i18n="settings">تنظیمات</h3></div><div class="row" style="margin:10px 0 18px"><button class="btn" id="openAbout">ⓘ About Watch Time</button></div><div class="notice">توکن فقط در حافظه محلی همین مرورگر ذخیره می‌شود و به سرور دیگری ارسال نمی‌شود. چون این نسخه وب است، اگر داده‌های مرورگر را پاک کنی ممکن است توکن و کتابخانه حذف شوند.</div><div class="field"><label for="token">TMDB API Read Access Token</label><input id="token" type="password" placeholder="توکن را اینجا وارد کن" autocomplete="off"></div><div class="row"><button class="btn primary" id="saveToken">ذخیره توکن</button><button class="btn" id="testToken">تست اتصال</button><button class="btn" id="showToken">نمایش</button></div><div id="tokenStatus" class="status"></div><div class="section-head"><h3>پشتیبان‌گیری</h3></div><p class="hint">برای انتقال کتابخانه به گوشی یا مرورگر دیگر، از اطلاعاتت فایل پشتیبان بگیر.</p><div class="row"><button class="btn" id="exportBtn">خروجی پشتیبان</button><label class="btn" for="importFile">بازیابی پشتیبان</label><input id="importFile" type="file" accept="application/json" hidden></div><div class="section-head"><h3>مدیریت اطلاعات</h3></div><button class="btn" id="clearLibrary">پاک کردن کتابخانه</button></section>
 </main><div class="footer">This product uses the TMDB API but is not endorsed or certified by TMDB.</div></div>
 <nav class="mobile-nav"><button class="active" data-page="home"><span>⌂</span>Home</button><button data-page="search"><span>⌕</span>Search</button><button data-page="calendar"><span>📅</span>Calendar</button><button data-page="library"><span>▣</span>Library</button><button data-page="watchlist"><span>♡</span>Watchlist</button><button data-page="anime"><span>✦</span>Anime</button></nav>
@@ -310,17 +311,58 @@ function renderReleaseCalendar(){
 async function loadReleaseCalendar(force=false){
  const status=$('#calendarStatus');if(!status)return;const request=++calendarRequest,shows=library.filter(x=>x.status!=='watchlist'&&(x.type||x.media_type)==='tv'),cache=countdownCache(),now=Date.now();calendarEventsData=[];
  if(!shows.length){status.className='status';status.textContent='Add TV shows to your Library to see their announced release dates.';renderReleaseCalendar();return}
- status.className='status';status.textContent='Checking release dates from TMDB…';
- for(const show of shows){if(request!==calendarRequest)return;let d=cache[show.id];
-  if(force||!d||!d.savedAt||now-d.savedAt>6*60*60*1000){try{const fresh=await api(`/tv/${show.id}?language=en-US`);d={savedAt:now,next_episode_to_air:fresh.next_episode_to_air||null,next_season_to_air:fresh.next_season_to_air||null,name:fresh.name||show.name||show.title,poster_path:fresh.poster_path||show.poster_path};cache[show.id]=d}catch(e){if(!d)continue}}
-  const ep=d.next_episode_to_air,season=d.next_season_to_air;
-  if(ep?.air_date&&releaseDayDiff(ep.air_date)!==null&&releaseDayDiff(ep.air_date)>=0)calendarEventsData.push({id:show.id,name:d.name||show.title||show.name||'Untitled',date:ep.air_date,kind:'episode',label:ep.name||`Season ${ep.season_number} · Episode ${ep.episode_number}`});
-  if(season?.air_date&&releaseDayDiff(season.air_date)!==null&&releaseDayDiff(season.air_date)>=0&&season.air_date!==ep?.air_date)calendarEventsData.push({id:show.id,name:d.name||show.title||show.name||'Untitled',date:season.air_date,kind:'season',label:season.name||`Season ${season.season_number}`});
+ status.className='status';status.textContent='Checking announced episode dates from TMDB…';
+ let failed=0;
+ for(const show of shows){
+  if(request!==calendarRequest)return;
+  let d=cache[show.id]||{},fresh=null;
+  const stale=force||!d.savedAt||now-d.savedAt>6*60*60*1000||!Array.isArray(d.calendarEpisodes);
+  if(stale){
+   try{
+    fresh=await api(`/tv/${show.id}?language=en-US`);
+    d={...d,savedAt:now,next_episode_to_air:fresh.next_episode_to_air||null,next_season_to_air:fresh.next_season_to_air||null,name:fresh.name||show.name||show.title,poster_path:fresh.poster_path||show.poster_path,seasons:fresh.seasons||d.seasons||[]};
+    const today=new Date();today.setHours(0,0,0,0);const todayKey=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+    const seasonMeta=(d.seasons||[]).filter(s=>Number(s.season_number)>0);
+    const nextSeasonNum=Number(d.next_episode_to_air?.season_number)||0;
+    const futureSeasonNums=seasonMeta.filter(s=>s.air_date&&s.air_date>=todayKey).map(s=>Number(s.season_number));
+    const latestSeasonNum=seasonMeta.reduce((n,s)=>Math.max(n,Number(s.season_number)||0),0);
+    const wanted=new Set([...futureSeasonNums,latestSeasonNum]);if(nextSeasonNum>0)wanted.add(nextSeasonNum);
+    // Keep requests bounded: current/most recent season plus announced future seasons.
+    const seasonNums=[...wanted].filter(n=>n>0).sort((a,b)=>a-b).slice(-5);
+    const episodeRows=[];
+    for(const seasonNum of seasonNums){
+     if(request!==calendarRequest)return;
+     try{
+      const seasonData=await api(`/tv/${show.id}/season/${seasonNum}?language=en-US`);
+      for(const ep of (seasonData.episodes||[]))if(ep.air_date&&releaseDayDiff(ep.air_date)!==null&&releaseDayDiff(ep.air_date)>=0){
+       episodeRows.push({date:ep.air_date,kind:'episode',season:Number(seasonNum),episode:Number(ep.episode_number),label:ep.name||`Season ${seasonNum} · Episode ${ep.episode_number}`,seasonName:seasonData.name||`Season ${seasonNum}`});
+      }
+      const seasonMetaRow=seasonMeta.find(s=>Number(s.season_number)===seasonNum);
+      if(!episodeRows.some(e=>e.season===seasonNum)&&seasonMetaRow?.air_date&&releaseDayDiff(seasonMetaRow.air_date)!==null&&releaseDayDiff(seasonMetaRow.air_date)>=0){
+       episodeRows.push({date:seasonMetaRow.air_date,kind:'season',season:seasonNum,label:seasonMetaRow.name||`Season ${seasonNum}`});
+      }
+     }catch(e){/* One unavailable season should not block the rest of the calendar. */}
+    }
+    // Keep only one entry per show/season/episode/date in the cache.
+    const unique=new Map();for(const ep of episodeRows){const key=`${ep.season}-${ep.episode||0}-${ep.date}-${ep.kind}`;unique.set(key,ep)}
+    d.calendarEpisodes=[...unique.values()];d.calendarSavedAt=now;cache[show.id]=d;
+   }catch(e){failed++;if(!d.name)d={...d,name:show.name||show.title,poster_path:show.poster_path};}
+  }
+  const name=d.name||show.title||show.name||'Untitled';
+  for(const ep of (d.calendarEpisodes||[]))if(ep.date&&releaseDayDiff(ep.date)!==null&&releaseDayDiff(ep.date)>=0){
+   calendarEventsData.push({id:show.id,name,date:ep.date,kind:ep.kind||'episode',season:ep.season,episode:ep.episode,label:ep.label||`Season ${ep.season} · Episode ${ep.episode}`});
+  }
+  // If the episode list is unavailable, still show TMDB's next episode/season summary as a fallback.
+  if(!(d.calendarEpisodes||[]).length){const ep=d.next_episode_to_air,season=d.next_season_to_air;
+   if(ep?.air_date&&releaseDayDiff(ep.air_date)!==null&&releaseDayDiff(ep.air_date)>=0)calendarEventsData.push({id:show.id,name,date:ep.air_date,kind:'episode',season:ep.season_number,episode:ep.episode_number,label:ep.name||`Season ${ep.season_number} · Episode ${ep.episode_number}`});
+   if(season?.air_date&&releaseDayDiff(season.air_date)!==null&&releaseDayDiff(season.air_date)>=0&&season.air_date!==ep?.air_date)calendarEventsData.push({id:show.id,name,date:season.air_date,kind:'season',season:season.season_number,label:season.name||`Season ${season.season_number}`});
+  }
  }
- try{localStorage.setItem('wt_show_release_cache_v1',JSON.stringify(cache))}catch(e){/* Calendar still works in memory if browser storage is full. */}
+ try{localStorage.setItem('wt_show_release_cache_v1',JSON.stringify(cache))}catch(e){/* Calendar remains usable in memory if storage is full. */}
  if(request!==calendarRequest)return;
- calendarEventsData.sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name));
- status.className='status';status.textContent=`${calendarEventsData.length} announced upcoming release${calendarEventsData.length===1?'':'s'} found · data from TMDB`;
+ const seen=new Set();calendarEventsData=calendarEventsData.filter(ev=>{const k=`${ev.id}:${ev.date}:${ev.kind}:${ev.season||0}:${ev.episode||0}`;if(seen.has(k))return false;seen.add(k);return true});
+ calendarEventsData.sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name)||((a.season||0)-(b.season||0))||((a.episode||0)-(b.episode||0)));
+ status.className=failed&& !calendarEventsData.length?'status err':'status';status.textContent=calendarEventsData.length?`${calendarEventsData.length} announced upcoming releases from ${shows.length} series · dates from TMDB${failed?` · ${failed} series could not be refreshed`:''}`:failed?`Could not load release dates for some series. Check your TMDB token and connection, then refresh.`:'No upcoming episode dates announced for your library yet. TMDB must list the future air dates.';
  if(!calendarEventsData.some(ev=>ev.date===calendarSelectedDate))calendarSelectedDate=calendarEventsData.find(ev=>ev.date?.slice(0,7)===`${calendarCursor.getFullYear()}-${String(calendarCursor.getMonth()+1).padStart(2,'0')}`)?.date||calendarEventsData[0]?.date||new Date().toISOString().slice(0,10);
  renderReleaseCalendar();
 }
