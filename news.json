@@ -1,32 +1,383 @@
 {
-  "updated_at": "2026-10-29T13:03:40Z",
+  "updated_at": "2026-10-29T22:45:50Z",
   "items": [
     {
-      "title": "Karen Read and Her Lawyer Alan Jackson to Launch Weekly Video Podcast (Exclusive)",
-      "link": "https://www.hollywoodreporter.com/business/digital/karen-read-podcast-news-details-exclusive-1236741923/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T13:00:00Z",
-      "summary": "Elizabeth Banks, eat your heart out.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "Darren Aronofsky to Receive Director’s Award at Camerimage",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/darren-aronofsky-directors-award-at-camerimage-2026-1236742458/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T13:00:00Z",
-      "summary": "The 'Black Swan' and 'Requiem for a Dream' filmmaker will be honored at the Polish festival, running Nov. 7-14, which celebrates the art of cinematography.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "‘Fuxi: Four Tales of Feasting’ Review: Qiu Jiongjiong Returns With a Sensory Banquet",
-      "link": "https://variety.com/2026/film/reviews/fuxi-four-tales-of-feasting-review-1236934064/",
+      "title": "Mathis Landwehr Martial Arts Films ‘Lion Fist,’ ‘The Last Kumite’ Land Korea, Latin America Deals at Tokyo Market (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/markets-festivals/mathis-landwehr-martial-arts-films-lion-fist-the-last-kumite-land-deals-1236934651/",
       "source": "Variety",
-      "published": "2026-10-29T12:37:54Z",
-      "summary": "Lauded for the stylized studio environments of his debut fiction feature, 2021’s Locarno prizewinner “A New Old Play,” Qiu Jiongjiong returns to the soundstage for a second helping in his follow-up, “Fuxi: Four Tales of Feasting.” “A New Old Play” told the story of an actor who played different roles in successive epochs of Chinese […]",
+      "published": "2026-10-29T22:41:36Z",
+      "summary": "Mathis Landwehr-led martial arts feature “Lion Fist” has been picked up for South Korea, Latin America and the CIS. Fellow Landwehr starrer “The Last Kumite” has also found a South Korean home, sales outfit Cappu Films revealed at the Tokyo International Film Festival’s TIFFCOM market. Studio DHL has taken South Korean rights to both films. […]",
       "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/fuxi.jpg"
+      "image": "https://variety.com/wp-content/uploads/2026/10/Lion-Fist-The-Last-Kumite.jpg"
+    },
+    {
+      "title": "‘Nocturne’ Review: Liev Schreiber and Stephen Graham Get Handcuffed by Clichés in Apple’s Dully Competent Serial Killer Thriller",
+      "link": "https://www.hollywoodreporter.com/tv/tv-reviews/nocturne-review-liev-schreiber-stephen-graham-apple-1236741410/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T22:18:11Z",
+      "summary": "Zazie Beetz also stars in the series from Rowan Joffé, based on a Swedish novel about a retired cop who must once again confront the murderer he helped put behind bars.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Margot Robbie ‘May Be Over’ Playing Harley Quinn, but James Gunn Would ‘Bend Over Backwards’ to Include Her in the DCU",
+      "link": "https://variety.com/2026/film/news/margot-robbie-harley-quinn-james-gunn-bend-over-backwards-1236934404/",
+      "source": "Variety",
+      "published": "2026-10-29T22:10:39Z",
+      "summary": "As James Gunn’s fledgling DC Universe continues to grow, he’s revealed that one key character will “almost certainly” return: Harley Quinn. But Margot Robbie, who played the anti-hero in three DCEU movies, may not be back. On “The Suicide Squad: Is It Canon? The Official Podcast,” Gunn was joined by Jennifer Holland and Steve Agee, […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2022/12/MCDBIOF_WB023-e1670425121649.jpg"
+    },
+    {
+      "title": "Patrick Stewart’s Final Movie Is ‘Avengers: Doomsday’; He Said Before His Death That ‘I Can’t Imagine Retiring. I’ll Forever Be an Actor’",
+      "link": "https://variety.com/2026/film/news/patrick-stewart-last-movie-role-avengers-doomsday-1236934590/",
+      "source": "Variety",
+      "published": "2026-10-29T22:05:09Z",
+      "summary": "Patrick Stewart’s final movie role will be in the upcoming “Avengers: Doomsday,” which marks his ninth time playing the “X-Men” character Charles Xavier on the big screen. Marvel Studios confirmed the news in their tribute to the late actor, who died at 86 years old after a brief battle with Alzheimer’s and Lewy Body Dementia. […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/P115ONMP.jpg"
+    },
+    {
+      "title": "Shiretto Sugee koto Itteru Gal Manga Takes 4-5 Month Break",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/shiretto-sugee-koto-itteru-gal-manga-takes-4-5-month-break/.243301",
+      "source": "Anime News Network",
+      "published": "2026-10-29T22:00:00Z",
+      "summary": "Manga returns sometime in February-March",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Skydance Reveals Key TV and Streaming Leadership Roles",
+      "link": "https://www.hollywoodreporter.com/business/business-news/skydance-tv-streaming-leadership-roles-1236743077/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T21:58:43Z",
+      "summary": "As part of the changes in JB Perrette's team, multiple former direct-to-consumer and streaming executives for Warner Bros. Discovery and Paramount Skydance are departing.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Skydance’s JB Perrette Reveals His Full Leadership Team, Announces Departures of Several Execs Not Joining Following the Paramount-Warner Bros. Merger",
+      "link": "https://variety.com/2026/tv/news/skydance-jb-perrette-leadership-team-departures-1236934597/",
+      "source": "Variety",
+      "published": "2026-10-29T21:58:21Z",
+      "summary": "Skydance’s JB Perrette, who now serves as co-chair and chief business officer of Skydance TV and Skydance Direct-to-Consumer, has unveiled his new executive org structure — and announced several departures from the pre-merged Warner Bros. Discovery and Paramount Skydance entities he now oversees. Exiting the combined company are Dan Barnes, Michael Bishara,…",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2024/03/JB-Perrette-1-e1629264608306_4935f6.webp"
+    },
+    {
+      "title": "Disney and the NFL Unveil Limited-Edition Mickey and Friends Super Bowl LXI Merch",
+      "link": "https://www.hollywoodreporter.com/lifestyle/shopping/disney-nfl-super-bowl-lxi-mickey-and-friends-team-gear-buy-1236742852/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T21:48:58Z",
+      "summary": "Two fandoms collide, delivering exclusive apparel, accessories, collectibles and game day gear.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "‘Clayface’ Breakout Star Tom Rhys Harries on Surviving a Multi-Day Screen Test",
+      "link": "https://www.hollywoodreporter.com/movies/movie-features/clayface-tom-rhys-harries-surviving-multi-day-screen-test-1236742744/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T21:45:13Z",
+      "summary": "The actor, now 36, was up against four other battle-tested peers for the lead role in the latest DC Universe venture.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Justin Long Joins Jenna Ortega, Rose Byrne in Drama ‘Nasty’ (Exclusive)",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/justin-long-cast-nasty-jenna-ortega-rose-byrne-1236743044/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T21:41:57Z",
+      "summary": "Mary Bronstein ('If I Had Legs I'd Kick You') is directing for Warner Bros.’s specialty label Clockwork.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Byron Allen Earns Profit After Selling All the Starz Stock He Bought From Steven Mnuchin",
+      "link": "https://variety.com/2026/tv/news/byron-allen-sells-starz-stock-steven-mnuchin-1236934569/",
+      "source": "Variety",
+      "published": "2026-10-29T21:31:15Z",
+      "summary": "Buy low, sell high: Investor and media entrepreneur Byron Allen has sold all of the shares in Starz that he had acquired earlier this year from Steve Mnuchin, the former Hollywood producer who served as Treasury Secretary during President Trump’s first term. He sold all 1.8 million shares of Starz he had owned over the […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/05/Byron-Allen.jpg"
+    },
+    {
+      "title": "Patrick Stewart’s Career in Photos: ‘Star Trek,’ ‘X-Men,’ ‘Avengers: Doomsday’ and More",
+      "link": "https://variety.com/lists/patrick-stewart-career-photos-star-trek-x-men-avengers-doomsday/",
+      "source": "Variety",
+      "published": "2026-10-29T21:26:55Z",
+      "summary": "Patrick Stewart, who died Wednesday at 86, starred in dozens of film, shows and TV movies across 60 years on screen. He was best known for playing Captain Jean-Luc Picard on “Star Trek” and Prof. Charles Xavier in the “X-Men” movies, and he received four Emmy nominations, three Golden Globe noms, a Tony nod and […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Patrick-Stewart.jpg"
+    },
+    {
+      "title": "Byron Allen Sells His Stake in Starz",
+      "link": "https://www.hollywoodreporter.com/business/business-news/byron-allen-sells-stake-in-starz-1236742995/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T21:01:55Z",
+      "summary": "The mogul acquired more than 10 percent of the company earlier this year in a deal with Steve Mnuchin.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Shōta Kōno Launches Nightmare of Oveja Negra Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/shota-kono-launches-nightmare-of-oveja-negra-manga/.243299",
+      "source": "Anime News Network",
+      "published": "2026-10-29T21:00:00Z",
+      "summary": "Science fiction horror story debuted on Tuesday",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Hugh Jackman Mourns ‘X-Men’ Co-Star Patrick Stewart: ‘A Tremendous Friend and Man. I Learned So Much From Him’",
+      "link": "https://variety.com/2026/film/news/patrick-stewart-dies-hugh-jackman-mourns-x-men-actor-1236934490/",
+      "source": "Variety",
+      "published": "2026-10-29T20:46:38Z",
+      "summary": "Hugh Jackman is mourning the loss of his long-time “X-Men” co-star and friend Patrick Stewart, who died on Wednesday at age 86 after a “brief battle” with Alzheimer’s and Lewy Body Dementia. “We lost one of the greats of stage and screen today,” Jackman wrote on Instagram. “And, in my book, a tremendous friend and […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/MCDLOGA_FE010.jpg"
+    },
+    {
+      "title": "Streaming Ratings Take on a Halloween Vibe With ‘Crystal Lake,’ ‘Carrie’",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/streaming-ratings-oct-12-18-2026-1236742914/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T20:43:30Z",
+      "summary": "'Hocus Pocus' and 'The Nightmare Before Christmas' also make their annual return to the movie chart.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "William Shatner and ‘Star Trek’ Family Mourn Patrick Stewart With Picard Tributes: ‘Godspeed, Captain’",
+      "link": "https://variety.com/2026/tv/news/william-shatner-star-trek-patrick-stewart-picard-tributes-1236934479/",
+      "source": "Variety",
+      "published": "2026-10-29T20:40:01Z",
+      "summary": "Tributes from across the “Star Trek” franchise are pouring in for Sir Patrick Stewart following the news of his death at 86. Fellow USS Enterprise captain William Shatner posted a statement on Stewart to his Facebook page, writing, “What a heartbreaking week it has been. Sir Patrick Stewart was a friend, a colleague, and a […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2023/04/STP3_Singles_Picard_0016_V2_RT2_f.jpg"
+    },
+    {
+      "title": "William Shatner, Seth MacFarlane, Hugh Jackman, Kevin Feige, More Remember Patrick Stewart: “He Was a Singular Talent”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/patrick-stewart-dead-tributes-reactions-hollywood-1236742947/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T20:32:26Z",
+      "summary": "The legendary actor, best known for his roles as Captain Jean-Luc Picard in 'Star Trek' and Professor X in 'X-Men,' died at 86.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Star Trek, X-Men Actor Patrick Stewart Dies at 86",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/star-trek-x-men-actor-patrick-stewart-dies-at-86/.243339",
+      "source": "Anime News Network",
+      "published": "2026-10-29T20:18:57Z",
+      "summary": "Stewart played Captain Picard in Star Trek , Professor Xavier in X-Men",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Patrick Stewart Dies: Marvel, Kevin Feige Praise ‘X-Men’ Icon For Bringing ‘Charles Xavier to Life With Grace, Intelligence and Humanity’",
+      "link": "https://variety.com/2026/film/news/patrick-stewart-death-marvel-kevin-feige-tributes-x-men-1236934424/",
+      "source": "Variety",
+      "published": "2026-10-29T20:15:33Z",
+      "summary": "Marvel Studios chief Kevin Feige is paying tribute to the late Patrick Stewart, who starred as Professor Charles Xavier since 2000’s “X-Men.” “I’ll never forget the first time I saw Sir Patrick Stewart on the set of the first X-Men,” said Feige, producer and president of Marvel Studios, in a statement shared after news broke […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/01/xavier.jpg"
+    },
+    {
+      "title": "Starz Beats Wall Street’s Q3 Earnings Estimates as Net Loss Narrows to $35 Million, Linear TV Revenue Dips",
+      "link": "https://variety.com/2026/tv/news/starz-q3-earnings-1236934329/",
+      "source": "Variety",
+      "published": "2026-10-29T20:05:00Z",
+      "summary": "Starz reported its third-quarter 2026 earnings Thursday revealing the now-standalone media company beat analyst expectations for the three month period ended Sept. 30. During the quarter, Lionsgate’s “Michael” debuted on Starz and since its Aug. 10 release has become the best-performing Pay 1 title in the network’s history history. Starz says in Q3 it narrow…",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/05/MCDMICH_LG039.jpg"
+    },
+    {
+      "title": "Starz Shrinks Loss, Grows Revenue in Third Quarter Amid Digital-Led Transformation",
+      "link": "https://www.hollywoodreporter.com/business/business-news/starz-q3-2026-earnings-1236742825/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T20:03:07Z",
+      "summary": "The now-solo premium cabler reiterated its 2026 outlook in key metrics as it charts a streaming TV future fueled by franchises like ‘Outlander’ and ‘Power.’",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Hotel Inhumans Anime's 2nd Season Casts Mitsuki Saiga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/hotel-inhumans-anime-2nd-season-casts-mitsuki-saiga/.243338",
+      "source": "Anime News Network",
+      "published": "2026-10-29T20:00:00Z",
+      "summary": "Saiga plays Sekiya",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "‘Mouthwashing’ Video Game Adaptation in the Works From Scott Derrickson, Karyn Kusama (Exclusive)",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/mouthwashing-game-adaptation-karyn-kusama-1236742948/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-29T20:00:00Z",
+      "summary": "Sony Pictures has picked up the film rights to the horror video game developed by Sweden-based Wrong Organ.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Patrick Stewart, ‘Star Trek’s’ Captain Picard and ‘X-Men’s’ Charles Xavier, Dies at 86",
+      "link": "https://variety.com/2026/tv/news/patrick-stewart-dead-star-trek-picardx-men-xavier-1236934412/",
+      "source": "Variety",
+      "published": "2026-10-29T19:51:02Z",
+      "summary": "Patrick Stewart, the English actor with impressive stage and film credits who will be remembered most for his roles as Captain Jean-Luc Picard on “Star Trek: The Next Generation” and as Professor Charles Xavier in the “X-Men” films, died Wednesday at his Los Angeles home. He was 86. According to a statement on his Instagram […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2020/01/patrick-stewart-2-1000-16x9-1.jpg"
+    },
+    {
+      "title": "Firefly Wedding TV Anime Casts Natsuko Abe",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/firefly-wedding-tv-anime-casts-natsuko-abe/.243336",
+      "source": "Anime News Network",
+      "published": "2026-10-29T19:10:36Z",
+      "summary": "Abe plays Aoi",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Taylor Sheridan’s ‘The Last Cowboy’ Sets Season 7 Premiere Date on CMT (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/news/the-last-cowboy-season-7-release-date-1236933537/",
+      "source": "Variety",
+      "published": "2026-10-29T19:00:00Z",
+      "summary": "Taylor Sheridan’s sports documentary series “The Last Cowboy” is riding back onto the small screen. Season 7 of the CMT series will premiere on Nov. 6 at 8 p.m. with six episodes. Episodes will be available the next day on CMT VOD, while the first six seasons are available to stream on Paramount+. “The Last […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/LCBY_S7_VARIETY_2000x2897_102826-e1793283336515.jpg"
+    },
+    {
+      "title": "Young Storytellers Nonprofit Launches Jamie Tarses Fund in Tribute to the Influential TV Executive",
+      "link": "https://variety.com/2026/biz/news/jamie-tarses-young-storytellers-fund-matt-1236934308/",
+      "source": "Variety",
+      "published": "2026-10-29T18:48:15Z",
+      "summary": "Young Storytellers, the nonprofit that supports writing development programs in Los Angeles public schools, has established the Jamie Tarses Fund to pay tribute to the late ABC and NBC executive and help support the organization’s work. Young Storytellers recruits volunteers from the entertainment industry and others with writing experience to work with stud…",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-974097886-1.jpg"
+    },
+    {
+      "title": "Batman Casting in DC Universe ‘Isn’t Far Away,’ Says James Gunn: A ‘Movie Star’ Isn’t Mandatory but He’ll Be ‘Around the Same Age’ as Superman",
+      "link": "https://variety.com/2026/film/news/batman-casting-dc-superman-age-james-gunn-1236934350/",
+      "source": "Variety",
+      "published": "2026-10-29T18:38:21Z",
+      "summary": "Robert Pattinson may be the star of Matt Reeves’ “The Batman” series, but another Caped Crusader will soon take flight in the rebooted DC universe under James Gunn. The DC Studios chief has revealed a few details on who will don the cowl in his new universe, which launched with last year’s “Superman” starring David […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/superman-batman.jpg"
+    },
+    {
+      "title": "The Grimm Reapress and the Drearytale Monster Game's Trailer Reveals May 13 Release in West",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/the-grimm-reapress-and-the-drearytale-monster-game-trailer-reveals-may-13-release-in-west/.243335",
+      "source": "Anime News Network",
+      "published": "2026-10-29T18:00:00Z",
+      "summary": "Game launches for Switch 2, Switch, PS5, PC",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "‘Monarch: Legacy of Monsters’ Eyes Season 3 Renewal at Apple TV With New Writers, Showrunner",
+      "link": "https://variety.com/2026/tv/news/monarch-legacy-of-monsters-season-3-renewal-new-showrunner-1236934328/",
+      "source": "Variety",
+      "published": "2026-10-29T18:00:00Z",
+      "summary": "Apple TV and Legendary Television are currently in talks for a third season of “Monarch: Legacy of Monsters,” but with some major changes. According to an individual with knowledge of the situation, Season 3 of the show would be helmed by a new showrunner and new writers, and would feature new Titans from Legendary’s Monsterverse. […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/02/Monarch_Legacy_of_Monsters_Photo_020101.jpg"
+    },
+    {
+      "title": "‘PUBG’ Live-Action Series From Donald Glover, Stephen Glover in Development at Netflix",
+      "link": "https://variety.com/2026/tv/news/pubg-live-action-show-netflix-donald-glover-stephen-glover-1236934277/",
+      "source": "Variety",
+      "published": "2026-10-29T17:30:00Z",
+      "summary": "Netflix is developing a live-action series based on the battle royale video game “PlayerUnknown’s Battlegrounds” (“PUBG”) with Donald Glover attached to star. In addition to starring, Glover and his brother and frequent collaborator Stephen Glover will write and executive produce the “PUBG” show, with Donald also planning to direct. Michael Schaefer of Neon…",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/PUBG-series-Netflix-Donald-Glover.jpg"
+    },
+    {
+      "title": "FromSoftware Delays The Duskbloods Switch 2 Game to 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/fromsoftware-delays-the-duskbloods-switch-2-game-to-2027/.243333",
+      "source": "Anime News Network",
+      "published": "2026-10-29T17:17:48Z",
+      "summary": "Developers to take additional time to adjust game balance following August's Closed Network Test",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Cannes Chief Thierry Fremaux Hails French Film Model as CNC Head Gaëtan Bruel Vows to Fight for Its Future at 80th Anniversary",
+      "link": "https://variety.com/2026/film/global/cannes-thierry-fremaux-french-film-model-cnc-gaetan-bruel-1236934291/",
+      "source": "Variety",
+      "published": "2026-10-29T17:08:00Z",
+      "summary": "France’s National Film Board, the CNC, marked its 80th anniversary with a three-day gathering of industry leaders in Paris, including Cannes Film Festival chief Thierry Frémaux who praised the country’s unique film funding system. CNC president Gaëtan Bruel, meanwhile, warned against attempts to dismantle a model that has helped make France a global cinema p…",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2025/10/Gaetan-Bruel-2025-Bassedef-Credit-Mehrak-CNC-2.jpg"
+    },
+    {
+      "title": "Hollywood Marketing Leaders Gather for a Candid Conversation About the Future of Entertainment",
+      "link": "https://variety.com/lists/future-entertainment-marketing-dinner-amazon-ads/",
+      "source": "Variety",
+      "published": "2026-10-29T16:41:52Z",
+      "summary": "Top Hollywood film and TV leaders gathered Oct. 22 for an intimate dinner and candid conversation about the future of entertainment marketing at a gathering moderated in partnership with Amazon Ads and Variety. Executives who convened at BOA Steakhouse in West Hollywood compared notes and talked shop about the buzzy subjects that are transforming the […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/MIK17039-e1793248457348.jpg"
+    },
+    {
+      "title": "Rascal Does Not Dream of a Dear Friend Film Screens in U.S., Canada on February 21, 23-24",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/rascal-does-not-dream-of-a-dear-friend-film-screens-in-u.s-canada-on-february-21-23-24/.243332",
+      "source": "Anime News Network",
+      "published": "2026-10-29T16:30:10Z",
+      "summary": "English-subbed trailer streamed",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Daily Report About My Witch Senpai Manga Ends",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/daily-report-about-my-witch-senpai-manga-ends/.243241",
+      "source": "Anime News Network",
+      "published": "2026-10-29T16:15:00Z",
+      "summary": "Manga launched 2018, continued with sequel in 2022",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Lustful Domination Novels/Manga Get AnimeFesta Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/lustful-domination-novels-manga-get-animefesta-anime/.243329",
+      "source": "Anime News Network",
+      "published": "2026-10-29T16:01:10Z",
+      "summary": "Isotarо̄ Shimano debuted Shikiyoku Hadou novel in June 2025",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Chiikawa Anime Film Rises Back to #2, Made in Abyss: Mezameru Shinpi Anime Film Opens at #6",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/chiikawa-anime-film-rises-back-to-no.2-made-in-abyss-mezameru-shinpi-anime-film-opens-at-no.6/.243244",
+      "source": "Anime News Network",
+      "published": "2026-10-29T15:15:00Z",
+      "summary": "Live-action In the Clear Moonlit Dusk film opens at #4",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Disney Twisted-Wonderland Anime's 'Episode of Savanaclaw' Begins 8-Episode Run on December 23",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/disney-twisted-wonderland-anime-episode-of-savanaclaw-begins-8-episode-run-on-december-23/.243328",
+      "source": "Anime News Network",
+      "published": "2026-10-29T14:45:51Z",
+      "summary": "Visual unveiled for 2nd season",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Japan's Video Game Rankings, October 12-18",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/japan-video-game-rankings-october-12-18/.243179",
+      "source": "Anime News Network",
+      "published": "2026-10-29T14:15:00Z",
+      "summary": "Tales of Eternia Remastered for Switch 2 debuts at #1",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Japanese Animation TV Ranking, October 12-18",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/japanese-animation-tv-ranking-october-12-18/.243177",
+      "source": "Anime News Network",
+      "published": "2026-10-29T13:15:00Z",
+      "summary": "The Apothecary Diaries season 3 earns 3.6% rating, Dragon Ball Super: Beerus earns 2.8% rating",
+      "category": "anime",
+      "image": ""
     },
     {
       "title": "Korea Holds 1st AI Creative Contest for Children to Make Webtoons",
@@ -47,93 +398,12 @@
       "image": ""
     },
     {
-      "title": "Russell Brand’s Wife Gives Evidence in Rape Trial: “Caring and Kind, Wonderful Father”",
-      "link": "https://www.hollywoodreporter.com/news/general-news/russell-brand-wife-laura-rape-trial-evidence-testify-court-1236742482/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T12:10:11Z",
-      "summary": "Laura Brand, who dated the defendant in 2006 before they rekindled their relationship in 2015, said she \"feels very seen by him.\" Her husband denies three counts of rape and three counts of sexual assault.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "WNBA Finals Game 6: Where to Watch the Valkyries vs. Dream Matinee Matchup Online",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/watch-valkyries-dream-game-6-wnba-finals-2026-free-stream-1236742322/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T12:05:00Z",
-      "summary": "The potential title-clincher tips off at 9:30 a.m. PT/12:30 p.m. ET on Thursday, Oct. 29.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "SiriusXM Q3 Revenue Edges Down, Subscriber Count Holds Steady at 33 Million",
-      "link": "https://www.hollywoodreporter.com/business/business-news/siriusxm-revenue-subscriber-1236742498/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T11:56:38Z",
-      "summary": "The satellite cable company saw its net income rise 7 percent to $317 million, or 94 cents a share for the third quarter.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "‘Between Us’ Review: Estranged Teenagers Process Past Tragedy Through High School Theater in Fitfully Ambitious Japanese Drama",
-      "link": "https://variety.com/2026/film/reviews/between-us-review-1236934055/",
-      "source": "Variety",
-      "published": "2026-10-29T11:53:14Z",
-      "summary": "The lingering trauma shared by two middle-class families, once friendly but now estranged following a tragic camping incident, is finally addressed through the unlikely prism of a high-school drama club production in “Between Us,” Shingo Matsumura’s well-intentioned, yet only fitfully successful, exploration of unprocessed grief. The writer-director’s fourth…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/between-us.jpg"
-    },
-    {
       "title": "No-Clipping My Way to Supremacy! TV Anime Reveals 7 Cast, More Staff",
       "link": "https://www.animenewsnetwork.com/news/2026-10-29/no-clipping-my-way-to-supremacy-tv-anime-reveals-7-cast-more-staff/.243326",
       "source": "Anime News Network",
       "published": "2026-10-29T11:53:03Z",
       "summary": "Nao Ojika, Kengo Tsujii, Tatsuhisa Suzuki, more join cast of 2027 anime",
       "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Gerry Cardinale’s RedBird Capital, Guy Oseary’s Sound Ventures Ink $1 Billion Investment Partnership",
-      "link": "https://www.hollywoodreporter.com/business/business-news/redbird-capital-sound-ventures-investment-partnership-1236742492/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T11:38:23Z",
-      "summary": "The Skydance and Artists Equity backer and the talent manager's investment firm will deploy the cash toward companies \"at the convergence of technology, media and culture.\"",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "Tahmima Anam’s New Novel ‘Good Books’ Being Adapted for TV With Pacesetter, Kudos and ‘Emily in Paris’ Writer (EXCLUSIVE)",
-      "link": "https://variety.com/2026/tv/global/tahmima-anam-good-books-tv-pacesetter-kudos-emily-in-paris-1236933613/",
-      "source": "Variety",
-      "published": "2026-10-29T11:30:00Z",
-      "summary": "The next novel by Tahmima Anam, the author of acclaimed and award-winning books “A Golden Age” and “The Good Muslim,” is being adapted for TV, Variety has learned. According to sources, “Good Books,” set behind the scenes in the world of publishing, is being developed for screen by Pacesetter Productions and Kudos. Anam is adapting […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Tahmima-Anam.jpg"
-    },
-    {
-      "title": "Russell Brand’s Wife Calls Him an ‘Amazing Husband’ at Rape Trial: ‘I Feel Very Seen by Him’",
-      "link": "https://variety.com/2026/tv/global/russell-brand-wife-amazing-husband-rape-trial-1236934000/",
-      "source": "Variety",
-      "published": "2026-10-29T11:15:40Z",
-      "summary": "Russell Brand’s wife, Laura Gallacher, took the stand to defend her husband at his rape and sexual assault trial in London on Thursday, calling him an “amazing husband.” Gallacher’s testimony comes after the former actor and comedian said in court on Wednesday that no one with relevant evidence to the alleged incidents being discussed in […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2302500401.jpg"
-    },
-    {
-      "title": "TelevisaUnivision Q3 Buoyed by World Cup in Mexico, Streaming Revenue",
-      "link": "https://variety.com/2026/tv/news/televisaunivsion-q3-world-cup-mexico-streaming-1236933808/",
-      "source": "Variety",
-      "published": "2026-10-29T11:00:00Z",
-      "summary": "Spanish-language broadcasting giant TelevisaUnivision said third-quarter revenue was boosted by telecasts of the FIFA World Cup in Mexico and Latin America and continued improvements at its ViX streaming service. Indeed, the World Cup had a significant effect on the company’s third-quarter financials, with revenue from subscriptions and licensing revenue up…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2024/09/Daniel_Alegre_Headshot-e1726716424262.jpg"
-    },
-    {
-      "title": "TelevisaUnivision Quarterly U.S. Ad Revenue Falls 24 Percent, But World Cup Boosts Mexico Results",
-      "link": "https://www.hollywoodreporter.com/business/business-news/televisaunivision-q3-earnings-world-cup-us-ad-revenue-down-1236742427/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T11:00:00Z",
-      "summary": "The Spanish-language media giant also posts record streaming revenue and a non-cash impairment loss of $372 million \"related to the write-down of television broadcast licenses.\"",
-      "category": "tv",
       "image": ""
     },
     {
@@ -146,65 +416,11 @@
       "image": ""
     },
     {
-      "title": "‘Paddington: The Musical’ Extends West End Run Due to “Unprecedented Demand”",
-      "link": "https://www.hollywoodreporter.com/lifestyle/arts/paddington-the-musical-extends-west-end-run-show-tickets-1236742478/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T10:35:29Z",
-      "summary": "The show picked up seven Olivier Awards earlier this year, equaling the record for the most wins by a musical.",
-      "category": "movies",
-      "image": ""
-    },
-    {
       "title": "The Remarried Empress Webtoon Launches Side Stories Ahead of Disney+ Live-Action Series",
       "link": "https://www.animenewsnetwork.com/news/2026-10-29/the-remarried-empress-webtoon-launches-side-stories-ahead-of-disney-live-action-series/.243306",
       "source": "Anime News Network",
       "published": "2026-10-29T10:23:25Z",
       "summary": "New episodes will also include alternate-universe stories that imagine different scenarios",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Aliens, Dinosaurs and a Father’s Death: ‘Kefi’ Director Saito Kisin Brings a Surreal Take on Grief to Tokyo",
-      "link": "https://variety.com/2026/film/festivals/aliens-dinosaurs-fathers-death-tokyo-kefi-saito-kisin-1236933998/",
-      "source": "Variety",
-      "published": "2026-10-29T10:13:44Z",
-      "summary": "Likely the strangest entry at this year’s Tokyo International Film Festival, the surreal “Kefi,” the debut feature by cinematographer Saito Kisin, mixes multiple short stories and multiple styles to make sense of the feelings around a complicated relationship with his late father. It doesn’t get there through the signifiers one might anticipate: there are al…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Kefi.jpg"
-    },
-    {
-      "title": "Animated Movie Based on Bestseller ‘The Unicorn That Said No’ Travels to Multiple Territories Ahead of AFM (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/global/the-unicorn-that-said-no-sales-afm-1236933937/",
-      "source": "Variety",
-      "published": "2026-10-29T10:00:00Z",
-      "summary": "Sales agency The Playmaker Munich has closed distribution deals for the animated movie “The Unicorn That Said No” in several territories, ahead of its market premiere at the American Film Market in Los Angeles. The feature has been sold to Unlimited Media for the Baltic states, WWE Rights for Benelux, KMBO for France, Grand Entertainment […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/The-Unicorn-That-Said-No.jpg"
-    },
-    {
-      "title": "‘The Celebrity Traitors’ Ratings Have Never Been Higher. So Why Has This Season Felt Unusually Flat?",
-      "link": "https://www.hollywoodreporter.com/tv/tv-features/the-celebrity-traitors-finale-bbc-maya-james-acaster-season-1236741685/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T10:00:00Z",
-      "summary": "Turret trio Maya Jama, James Acaster and King Kenny are firmly under the radar ahead of the endgame, but the jeopardy is severely lacking: \"[It] feels like something is missing with this current run.\"",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "‘Ninja Warrior’ Maker TBS Tells Tokyo Market How Legendary, CJ ENM Alliances Fit Its Push to Make J-Content the Next K-Drama",
-      "link": "https://variety.com/2026/tv/markets-festivals/ninja-warrior-tbs-legendary-cj-enm-tokyo-market-j-content-1236933988/",
-      "source": "Variety",
-      "published": "2026-10-29T09:59:27Z",
-      "summary": "A Thursday morning session at TIFFCOM, the content market of the Tokyo International Film Festival, highlighted the Tokyo Broadcasting System (TBS) Group’s initiatives to find global footholds for Japanese content and “inspiring global love for Japan.” Watanabe Shinya, president of the global business division at TBS Holdings, and Setoguchi Katsuaki, executi…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2016/09/nup_173973_2739.jpg"
-    },
-    {
-      "title": "Cannes’ Marché du Film, TIFFCOM Commit to Second Edition of Japan IP Market in 2027",
-      "link": "https://www.hollywoodreporter.com/business/business-news/cannes-marche-du-film-tiffcom-japan-ip-market-2027-1236742460/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T09:27:36Z",
-      "summary": "The event, running May 14–15 next year, is designed to help international producers navigate Japan’s complex rights landscape and develop adaptations of manga, novels and other IP.",
       "category": "anime",
       "image": ""
     },
@@ -216,69 +432,6 @@
       "summary": "Company's current update states customers' complete 16-digit card number may have been exposed due to breach",
       "category": "anime",
       "image": ""
-    },
-    {
-      "title": "‘Godzilla Minus One’ U.S. Success ‘Wasn’t a Strategy; We Just Tried,’ Says Toho CEO at Tokyo Festival",
-      "link": "https://variety.com/2026/film/festivals/godzilla-minus-one-us-success-wasnt-strategy-toho-chief-1236933968/",
-      "source": "Variety",
-      "published": "2026-10-29T08:58:51Z",
-      "summary": "Japanese studio giant Toho’s North American release of “Godzilla Minus One” was a turning point in the company’s approach to the global market, CEO Matsuoka Hiro said at the Tokyo International Film Festival on Thursday. Matsuoka was speaking at an “Academy in Tokyo” session with Bill Kramer, CEO of the Academy of Motion Picture Arts […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/03/Godzilla-Minus-One.jpg"
-    },
-    {
-      "title": "AI Can Critique Shakespeare but Can’t Write It, Russo Brothers’ AGBO Execs Tell Tokyo Market",
-      "link": "https://variety.com/2026/film/markets-festivals/ai-critique-shakespeare-cant-write-russo-brothers-agbo-tokyo-1236933960/",
-      "source": "Variety",
-      "published": "2026-10-29T08:25:52Z",
-      "summary": "Top AGBO execs Chris Brearton and Dominic Hughes delivered a keynote discussion at TIFFCOM, the content market of the Tokyo International Film Festival, on Thursday, about how AI is impacting filmmaking, how it can be used to assist rather than replace human creators and how it will shape the future of visual content creation. Brearton […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/AGBO-tech-heads.jpg"
-    },
-    {
-      "title": "Japan IP Market to Return to Cannes in 2027 as Tokyo Partnership Continues",
-      "link": "https://variety.com/2026/film/markets-festivals/japan-ip-market-returns-cannes-2027-1236933952/",
-      "source": "Variety",
-      "published": "2026-10-29T07:57:55Z",
-      "summary": "The Japan IP Market will be back in Cannes next May for a second straight year. The Cannes Film Market and TIFFCOM, the content market of the Tokyo International Film Festival, are again teaming up on the event, and the 2027 edition will run May 14-15. The return was revealed at TIFFCOM in Tokyo, during […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Japan-IP-market-Cannes.jpg"
-    },
-    {
-      "title": "Busan Winner ‘Birds in the Dark’ to Close Dharamshala International Film Festival, Varun Grover’s ‘Damned’ Among New Titles",
-      "link": "https://variety.com/2026/film/festivals/busan-winner-birds-in-the-dark-dharamshala-film-festival-1236933942/",
-      "source": "Variety",
-      "published": "2026-10-29T07:44:55Z",
-      "summary": "Shashank Walia’s “Birds in the Dark,” about a call center executive whom a police informer mistakes for a suspect, will close the 15th Dharamshala International Film Festival with its India premiere. The festival runs Oct. 29–Nov. 1 at Tibetan Children’s Village in Upper Dharamshala. Walia’s debut feature took two prizes at the Busan International Film […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Birds-in-the-Dark.jpg"
-    },
-    {
-      "title": "Jimmy Fallon and Jamie Lee Curtis Transform Into Nathan Fielder and Elizabeth Holmes to Spoof ‘You Can See Everything’",
-      "link": "https://variety.com/2026/tv/news/jimmy-fallon-jamie-lee-curtis-you-can-see-everything-1236933837/",
-      "source": "Variety",
-      "published": "2026-10-29T04:21:47Z",
-      "summary": "On Wednesday night’s episode of “The Tonight Show,” host Jimmy Fallon gave his best Nathan Fielder impression while guest Jamie Lee Curtis played Elizabeth Holmes to spoof A24’s buzzy documentary, “You Can See Everything.” “Now, be honest. Do you really want to be on the show tonight?” asks Fallon, doing his best Fielder impression. “Of […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/split-image-1000.jpg"
-    },
-    {
-      "title": "James Gunn Calls Batman, Superman and Wonder Woman the DCU’s ‘Diamond Characters,’ Says Krypto, John Stewart and Peacemaker Could ‘Turn Into Diamonds’",
-      "link": "https://variety.com/2026/film/news/james-gunn-batman-superman-wonder-woman-dcu-1236933827/",
-      "source": "Variety",
-      "published": "2026-10-29T03:53:49Z",
-      "summary": "James Gunn has once again taken to Threads in defense of his DC universe, and this time, is clarifying his previously proposed eight- to 10-year roadmap for the fictional world and making it clearer where each character stands within it. “You can look at my quotes from January ’23 when we started and I said […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Warner-Bros.-Premiere-Of-The-Suicide-Squad-Red-Carpet-MCDSUPE-WB040-1000.jpg"
-    },
-    {
-      "title": "‘South Park’: Cartman, Stan and Kyle Must Solve South America’s Beef Crisis in Halloween Week Episode",
-      "link": "https://variety.com/2026/tv/news/south-park-season-29-episode-4-1236933789/",
-      "source": "Variety",
-      "published": "2026-10-29T03:05:04Z",
-      "summary": "In the fourth episode of “South Park” Season 29, South America’s beef has surprisingly become a hot commodity — and Cartman, Stan, Kyle and Randy won’t let their lunch-of-choice get taken away from the local mountain town without a fight. The episode, titled, fittingly, “Guinea Pig on a Stick,” opens with Cartman eager to get […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-7.04.59-PM.png"
     },
     {
       "title": "Solo Leveling: Arise Overdrive Game Launches for PS5, Xbox Series X|S on November 3",
@@ -308,15 +461,6 @@
       "image": ""
     },
     {
-      "title": "‘The Mosquito Bowl’ Review: Football Heroes Take to the Battlefield in Peter Berg’s Emptily Macho WWII Epic",
-      "link": "https://variety.com/2026/film/reviews/the-mosquito-bowl-review-1236932067/",
-      "source": "Variety",
-      "published": "2026-10-29T01:40:14Z",
-      "summary": "No one familiar with the oeuvre of Peter Berg — the action merchant behind the Afghanistan war drama “Lone Survivor” and the improbably pumped-up boardgame adaptation “Battleship” — should approach “The Mosquito Bowl” expecting great restraint or good taste. Ostensibly, Berg’s Netflix-backed combat epic is fighting the same fight as Terrence Malick’s “The Th…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/mosquito.jpg"
-    },
-    {
       "title": "Natsume Ono to Launch Korore Spinoff Manga of ACCA-13, Badon Manga",
       "link": "https://www.animenewsnetwork.com/news/2026-10-28/natsume-ono-to-launch-korore-spinoff-manga-of-acca-13-badon-manga/.243271",
       "source": "Anime News Network",
@@ -344,15 +488,6 @@
       "image": ""
     },
     {
-      "title": "Hayden Panettiere’s Overdose Death Investigation Closed by Police",
-      "link": "https://variety.com/2026/tv/news/hayden-panettiere-death-investigation-closed-accidental-1236933664/",
-      "source": "Variety",
-      "published": "2026-10-28T21:31:13Z",
-      "summary": "Hayden Panettiere’s death has been ruled as accidental and the investigation has concluded, the Greenville, South Carolina police department announced Wednesday. “Based on the (coroner’s office’s) determination and the findings of the investigation, Hayden Panettiere’s death has been ruled accidental. The Greenville Police Department has concluded its invest…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/08/hayden-2.jpg"
-    },
-    {
       "title": "Yuki Amemiya, Yukino Ichihara's My Husband is a Doomsday Weapon Manga Ends",
       "link": "https://www.animenewsnetwork.com/news/2026-10-28/yuki-amemiya-yukino-ichihara-my-husband-is-a-doomsday-weapon-manga-ends/.243272",
       "source": "Anime News Network",
@@ -369,24 +504,6 @@
       "summary": "Game slated for 2026 release",
       "category": "anime",
       "image": ""
-    },
-    {
-      "title": "Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller",
-      "link": "https://variety.com/2026/tv/news/alfonso-cuaron-apple-tv-ascension-cast-1236933558/",
-      "source": "Variety",
-      "published": "2026-10-28T20:30:00Z",
-      "summary": "Alfonso Cuarón’s upcoming Apple TV series “Ascension” has added three new series regulars. Variety has learned that Amanda Plummer (“Run,” “Butterfly Kiss”), Christopher Chung (“Slow Horses,” “My Brilliant Career”) and T’Nia Miller (“The Haunting of Bly Manor,” “VisionQuest”) have all been cast in the series. Exact character details are being kept under wrap…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Ascension-Apple-TV-1000.jpg"
-    },
-    {
-      "title": "Skydance TV Co-Chair George Cheeks Reveals Executive Structure Following Paramount-Warner Bros. Merger",
-      "link": "https://variety.com/2026/tv/news/skydance-george-cheeks-channing-dungey-executive-structure-1236933612/",
-      "source": "Variety",
-      "published": "2026-10-28T20:27:04Z",
-      "summary": "Skydance TV co-chair and chief content officer George Cheeks formalized his division’s executive structure. In a memo to staff, Cheeks shared the specific titles for his direct reports, as well as how Skydance TV will now operate post-Warner Bros. and Paramount merger. “Reporting to me, these accomplished leaders will work together to advance our strategy [……",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2025/12/George-Cheeks.jpg"
     },
     {
       "title": "Reiko Shimizu's Himitsu Season 0 Spinoff Manga Enters Final Arc",
@@ -414,15 +531,6 @@
       "summary": "Kui Otoko no Majо̄ to Kyūseishu debuts on February 25",
       "category": "anime",
       "image": ""
-    },
-    {
-      "title": "After the Cast and Creator’s Comments, ‘Nobody Wants This’ Can No Longer Ignore Israel and Gaza",
-      "link": "https://variety.com/2026/tv/columns/nobody-wants-this-cant-ignore-israel-gaza-adam-brody-1236933496/",
-      "source": "Variety",
-      "published": "2026-10-28T18:53:34Z",
-      "summary": "For the past few weeks, the cast and creator of the Netflix hit comedy “Nobody Wants This” have been trading takes on the Israel-Palestine conflict via the press. First, star Adam Brody, who plays “hot rabbi” Noah Roklov and one half of the show’s central couple, told GQ that he considers Israel’s actions in Gaza […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/NWT_302_Unit_00506RC.jpg"
     },
     {
       "title": "Urban Myth Dissolution Center, Schrödinger's Call Games Get Switch 2 Releases",
@@ -502,132 +610,6 @@
       "source": "Anime News Network",
       "published": "2026-10-28T12:37:42Z",
       "summary": "Mikawa voices 2nd daughter Raine",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Masaki Andō's Mojiponika! Manga Ends on November 25",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/masaki-ando-mojiponika-manga-ends-on-november-25/.243238",
-      "source": "Anime News Network",
-      "published": "2026-10-28T03:00:00Z",
-      "summary": "Comedy manga launched in May 2025",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Yome ga Kuru Artist saku Launches New Kimi to Sakura no Hanataba wo Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/yome-ga-kuru-artist-saku-launches-new-kimi-to-sakura-no-hanataba-wo-manga/.243258",
-      "source": "Anime News Network",
-      "published": "2026-10-28T02:00:00Z",
-      "summary": "Kimi to Sakura no Hanataba wo debuts on November 1",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Eito Chida Launches New Hoshibarai no Chidori Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/eito-chida-launches-new-hoshibarai-no-chidori-manga/.243220",
-      "source": "Anime News Network",
-      "published": "2026-10-28T00:00:00Z",
-      "summary": "Hoshibarai no Chidori debuts on November 20",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Live-Action Sins of Kujo Film's New Trailer Unveils Theme Song",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/live-action-sins-of-kujo-film-new-trailer-unveils-theme-song/.243264",
-      "source": "Anime News Network",
-      "published": "2026-10-27T23:44:12Z",
-      "summary": "Hitsujibungaku performs \"Dispel\"",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "We Are Aliens Film Wins Awards at Rome, Philadelphia Film Festivals",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/we-are-aliens-film-wins-awards-at-rome-philadelphia-film-festivals/.243231",
-      "source": "Anime News Network",
-      "published": "2026-10-27T23:00:00Z",
-      "summary": "New video showing film clip streams",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Deadline: Takashi Yamazaki's Grandgear Film Casts Sam Nivola, Nico Parker",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/deadline-takashi-yamazaki-grandgear-film-casts-sam-nivola-nico-parker/.243234",
-      "source": "Anime News Network",
-      "published": "2026-10-27T22:00:00Z",
-      "summary": "Paul Giamatti also reportedly in talks to join cast",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Manga Mavericks Books, Omoi License Georgie Manga in English",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/manga-mavericks-books-omoi-license-georgie-manga-in-english/.243227",
-      "source": "Anime News Network",
-      "published": "2026-10-27T21:00:00Z",
-      "summary": "Series launches digitally in spring 2027, in print in August 2027",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Manga Barcelona to Host Junji Ito, Hyuganatsu, Nao Iwamoto, Sakaomi Yuzaki, Yudetamago, Taizan 5, Kore Yamazaki, Shoji Kawamori, More",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/manga-barcelona-to-host-junji-ito-hyuganatsu-nao-iwamoto-sakaomi-yuzaki-yudetamago-taizan-5-kore-/.243251",
-      "source": "Anime News Network",
-      "published": "2026-10-27T20:00:00Z",
-      "summary": "Also: Kenny Ruiz, Risa Ebata, Keiichiro Saito, Yuichiro Fukushi, Reol, Lotus Juice, Ali, Nightmare, more",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "AniBiz Anime Licensing Platform Receives US$6 Million Investment From TBS, Toei Animation, TV Tokyo",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/anibiz-anime-licensing-platform-receives-usd6-million-investment-from-tbs-toei-animation-tv-tokyo/.243261",
-      "source": "Anime News Network",
-      "published": "2026-10-27T19:00:00Z",
-      "summary": "Kun Gao's Nakama launched dedicated B2B marketplace for global anime industry AniBiz on July 2",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Detective Conan Anime's 4th Collection of Episodes 'Clash of the Red and Black' Streams on Crunchyroll, Netflix on November 1",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/detective-conan-anime-4th-collection-of-episodes-clash-of-the-red-and-black-streams-on-crunchyroll-/.243257",
-      "source": "Anime News Network",
-      "published": "2026-10-27T17:00:00Z",
-      "summary": "\"Clash of the Red and Black\" arc centers on FBI vs. Black Organization",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "GKIDS Releases cocoon Wartime Anime Digitally With Blu-ray Disc Release Shipping on January 19",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/gkids-releases-cocoon-wartime-anime-digitally-with-blu-ray-disc-release-shipping-on-january-19/.243255",
-      "source": "Anime News Network",
-      "published": "2026-10-27T16:10:19Z",
-      "summary": "Film launches digitally on Apple TV, Prime Video on Tuesday",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Bleach Mirrors High Mobile Game's Opening Animation Trailer Reveals Theme Song, October 28 Launch",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/bleach-mirrors-high-mobile-game-opening-animation-trailer-reveals-theme-song-october-28-launch/.243252",
-      "source": "Anime News Network",
-      "published": "2026-10-27T16:00:35Z",
-      "summary": "suisoh performs theme song \"CRITICAL\" for iOS/Android game",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Witch on the Holy Night Film's Trailer Previews supercell's Theme Song",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/witch-on-the-holy-night-film-trailer-previews-supercell-theme-song/.243248",
-      "source": "Anime News Network",
-      "published": "2026-10-27T15:00:00Z",
-      "summary": "Film screens in U.S., Canada on January 29, 2027",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Phantom Busters TV Anime Reveals Main Cast, Staff",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/phantom-busters-tv-anime-reveals-main-cast-staff/.243246",
-      "source": "Anime News Network",
-      "published": "2026-10-27T14:32:22Z",
-      "summary": "Nobuhiko Okamoto, Natsuki Hanae, Kōki Uchiyama, Ryōta Suzuki star in TOHO animation STUDIO anime",
       "category": "anime",
       "image": ""
     }
