@@ -1,6 +1,204 @@
 {
-  "updated_at": "2026-10-30T22:22:04Z",
+  "updated_at": "2026-10-31T05:44:28Z",
   "items": [
+    {
+      "title": "How Keanu Reeves Landed in Stop-Motion Samurai Epic ‘Hidari’ – and Why S.S. Rajamouli Wanted to Know How It Was Made",
+      "link": "https://variety.com/2026/film/festivals/keanu-reeves-hidari-ss-rajamouli-1236935934/",
+      "source": "Variety",
+      "published": "2026-10-31T04:38:17Z",
+      "summary": "Keanu Reeves joined Japanese stop-motion feature “Hidari” after watching the project’s pilot film, with his team getting back to the filmmakers about a week after the screening was arranged to set up a Zoom call, director Kawamura Masashi said at the Tokyo International Film Festival, where he also updated the film’s fundraising push. Kawamura, who […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/06/MixCollage-25-Jun-2026-07-18-PM-2123.jpg"
+    },
+    {
+      "title": "Georgia’s ‘Guria’ Wins Best Film at Asia Pacific Screen Awards as Thailand’s Sompot Chidgasornpongse Takes Director Prize",
+      "link": "https://variety.com/2026/film/awards/georgia-guria-best-film-asia-pacific-screen-awards-1236935931/",
+      "source": "Variety",
+      "published": "2026-10-31T04:25:38Z",
+      "summary": "Georgian filmmaker Levan Koguashvili’s “Guria” was named best film at the 19th Asia Pacific Screen Awards, handed out Oct. 30 at The Star Gold Coast in Queensland, Australia. Koguashvili shared the prize with fellow producers Olena Yershova and Boris Frumin. The film was made across seven countries: Georgia, Switzerland, Luxembourg, Bulgaria, Türkiye, Norway…",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Asia-Pacific-Screen-Awards-winners-2026.jpg"
+    },
+    {
+      "title": "Ranbir Kapoor, Yash Light Up Gold House’s Diwali Event as Group Launches South Asian Shorts Fund",
+      "link": "https://variety.com/2026/film/news/ranbir-kapoor-yash-gold-house-diwali-event-1236935927/",
+      "source": "Variety",
+      "published": "2026-10-31T04:09:21Z",
+      "summary": "Ranbir Kapoor and Yash, stars of the epic adaptation “Ramayana: Rise of a Legend,” opened Gold House’s largest Gold Diwali to date at The Majestic Downtown in Los Angeles, alongside filmmakers Nitesh Tiwari and Namit Malhotra, a week before the film’s release. Gold House, which works to back and celebrate the Asian Pacific community, staged […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Ramayana-team.jpg"
+    },
+    {
+      "title": "Bill Maher Fact-Checks Kid Rock After He Compares Abdul El-Sayed to 9/11 Hijackers on ‘Real Time’",
+      "link": "https://variety.com/2026/tv/news/kid-rock-abdul-el-sayed-9-11-hijackers-real-time-bill-maher-1236935914/",
+      "source": "Variety",
+      "published": "2026-10-31T03:13:17Z",
+      "summary": "Bill Maher opened his new episode of “Real Time” Friday night by addressing Trump’s 1,300-word social media tirade against him following their White House dinner earlier this month, with the comic comparing the president to Taylor Swift. Following a sit-down interview with Republican Senator Ted Cruz, who was busy hawking his new book on Supreme […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Real-Time-With-Bill-Maher-President-Trump-Holds-Midterm-Campaign-Rally-In-Clarksville-Tennessee-1000.jpg"
+    },
+    {
+      "title": "2026 Daytime Emmy Awards: ‘General Hospital’ Wins Best Daytime Drama",
+      "link": "https://www.hollywoodreporter.com/news/general-news/2026-daytime-emmys-winners-list-1236744039/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T03:11:55Z",
+      "summary": "'The Kelly Clarkson Show' won a leading five awards, as 'Beyond the Gates' also took home four trophies.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Bill Maher Responds to Trump’s 1,318-Word Social Rant: “He Went Off on Me Like Kelly Clarkson in a Toy Store”",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/bill-maher-responds-trump-social-rant-kelly-clarkson-toy-store-1236743958/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T02:38:37Z",
+      "summary": "The president slammed the TV host in a Sunday post, writing that he is a \"COMPLETE AND TOTAL LOSER.\"",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Bill Maher Fires Back at Trump by Comparing Him to Taylor Swift",
+      "link": "https://variety.com/2026/tv/news/bill-maher-fires-back-trump-taylor-swift-real-time-hbo-1236935799/",
+      "source": "Variety",
+      "published": "2026-10-31T02:21:47Z",
+      "summary": "Bill Maher learned that when it comes to Donald Trump, no good deed goes unpunished. On last week’s episode of “Real Time with Bill Maher,” the political pundit defended his recent White House dinner with the president, exclaiming, “You know what? Fuck you. I like these dinners,” before conducting an embarrassingly chummy interview with Trump’s […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2017/01/real-time-with-bill-maher.jpg"
+    },
+    {
+      "title": "Margaret Qualley and Jack Antonoff File for Divorce After Three Years of Marriage",
+      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/margaret-qualley-jack-antonoff-file-divorce-1236744038/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T01:37:48Z",
+      "summary": "The actress and Bleachers frontman began dating in 2021 and reportedly broke up in July.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Timbaland Files $15 Million Fraud Lawsuit Against Former Managers",
+      "link": "https://www.hollywoodreporter.com/music/music-industry-news/timbaland-files-15-million-lawsuit-against-former-managers-1236743974/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T01:23:51Z",
+      "summary": "The super-producer alleges that former manager Gary Marella and business manager Bruce Seckendorf \"used their entrusted authority to enrich themselves and others, conceal financial misconduct, and deplete Timbaland’s valuable assets.\"",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "LAPD Arrests Two for Murder of Christina Downer, Sister to ‘SNL’ Writer Jimmy Fowlie",
+      "link": "https://www.hollywoodreporter.com/news/general-news/arrest-murder-christina-downer-snl-writer-jimmy-fowlie-1236744032/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T00:48:27Z",
+      "summary": "Police arrested Downer's boyfriend, Delorean Bijon Brandon, and Kaylee Nicole Markowski on Thursday.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "The Hollywood Reporter Wins 2026 Daytime Emmy Award",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/hollywood-reporter-wins-2026-daytime-emmy-award-1236744015/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T00:46:06Z",
+      "summary": "This was the third consecutive nomination for the 'Off Script' roundtable series, which has received a total of six nods over the past nine years.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Sanrio's Kuromi Character Gets 1st Film in 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-30/sanrio-kuromi-character-gets-1st-film-in-2027/.243372",
+      "source": "Anime News Network",
+      "published": "2026-10-31T00:42:09Z",
+      "summary": "Announced on Kuromi's birthday, Halloween, after 3 net anime series",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "‘Fuxi: Four Tales of Feasting’ Review: Whimsical Chinese Film Explores Myth and History Through a Series of Tasty Treats",
+      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/fuxi-four-tales-of-feasting-qiu-jiongjiong-1236743718/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T00:36:53Z",
+      "summary": "In Qiu Jiongjiong's latest, highly stylized sets and costumes contribute to a strange banquet of storytelling where food plays a key role.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Selma Blair Apologizes for Plane Arrest: “Not One Day Have I Intended to Hurt or Frighten Anyone”",
+      "link": "https://www.hollywoodreporter.com/news/general-news/selma-blair-apologizes-plane-arrest-not-intended-hurt-anyone-1236744004/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T00:26:05Z",
+      "summary": "The actress was arrested at John F. Kennedy International Airport on Oct. 11 after an alleged incident on a Delta plane that resulted in two flight attendants being injured and one being sent to the hospital.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Martin Scorsese Says His ‘Cleopatra’ Movie With Angelina Jolie Was ‘Ruined’ by Seth Rogen and the Sony Hack: ‘It Was Gonna Be Really Wild’",
+      "link": "https://variety.com/2026/film/news/martin-scorsese-cleopatra-angelina-jolie-ruined-sony-hack-1236935596/",
+      "source": "Variety",
+      "published": "2026-10-31T00:16:05Z",
+      "summary": "Martin Scorsese’s “Cleopatra” never came to fruition, and he says the Angelina Jolie-starrer was nixed because of Seth Rogen and the Sony hack. For those who need a refresher, Sony emails were hacked in November 2014 by a group that hoped the Seth Rogen comedy “The Interview,” which was about a fictional assassination attempt of […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/split-image-1000_ede697.jpg"
+    },
+    {
+      "title": "‘The Celebrity Traitors’ Season 2 Crowns Its Winners After Dramatic Finale",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/celebrity-traitors-season-2-winners-bbc-1236743967/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-31T00:14:32Z",
+      "summary": "The BBC reality series, hosted by Claudia Winkleman, wrapped its second installment Friday.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "‘Kelly Clarkson Show,’ ‘General Hospital,’ ‘Beyond the Gates’ Lead Daytime Emmys 2026 Winners",
+      "link": "https://variety.com/2026/tv/news/daytime-emmys-2026-winners-list-1236935712/",
+      "source": "Variety",
+      "published": "2026-10-31T00:01:51Z",
+      "summary": "“The Kelly Clarkson Show” went out with a bang. The daytime talk show won five awards at the 53rd Daytime Emmys on Friday, including the top daytime talk prize, the most of any program. Meanwhile, ABC’s “General Hospital” scored the top daytime drama prize (for the sixth consecutive year), winning four overall — tied with […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/NUP_209085_00524.jpg"
+    },
+    {
+      "title": "Japan’s Anime Industry Hits a Record High of $28 Billion in 2025",
+      "link": "https://www.hollywoodreporter.com/business/business-news/japan-anime-industry-revenue-28-billion-in-2025-1236743413/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-30T23:45:32Z",
+      "summary": "Anime saw growth in both foreign sales and the domestic market, driven in no small part by the huge global success of the latest 'Demon Slayer' movie",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Two Arrested in Murder of ‘SNL’ Writer’s Sister",
+      "link": "https://variety.com/2026/tv/news/arrests-murder-christina-downer-jimmy-fowlie-1236935631/",
+      "source": "Variety",
+      "published": "2026-10-30T23:32:36Z",
+      "summary": "Two suspects have been arrested in connection with the murder of Christina Downer, “Saturday Night Live” writer Jimmy Fowlie’s sister, according to the Los Angeles Police Department. Delorean Bijon Brandon, 41, Downer’s boyfriend, and Kaylee Nicole Markowski, 34, were arrested Thursday in Highland Park and Tarzana, respectively. Detectives believe Brandon an…",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Christina-Downer-Death.jpg"
+    },
+    {
+      "title": "Selma Blair Apologizes for Plane Incident: ‘I Am So Sorry’",
+      "link": "https://variety.com/2026/film/news/selma-blair-apologizes-plane-incident-1236935645/",
+      "source": "Variety",
+      "published": "2026-10-30T23:19:53Z",
+      "summary": "Selma Blair issued a video apology on Friday for the Oct. 11 incident in which she allegedly injured a flight attendant and kicked a nurse after being removed from a plane at John F. Kennedy International Airport. Blair, 54, is facing two state charges of 2nd-degree assault for the alleged attacks on the nurse and […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2025/04/Selma-Blair.jpg"
+    },
+    {
+      "title": "Magical Realist Tale ‘6TM’ and ‘Searching for SmarterChild,’ About One of the Earliest Chatbots, Win Top Industry Awards at Ji.hlava Festival",
+      "link": "https://variety.com/2026/film/global/6tm-searching-for-smarterchild-industry-award-jihlava-1236935633/",
+      "source": "Variety",
+      "published": "2026-10-30T23:12:04Z",
+      "summary": "“6TM,” directed by Karim Akalay and produced by Walid Bekhti, won the New Visions Award for the most promising European project at the Ji.hlava Documentary Film Festival on Friday. The film is described as “a Belgian family comedy in three chapters, rooted in magic realism and the resilience of a community.” In the film, which […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/6-TM.jpg"
+    },
+    {
+      "title": "‘Obsession’ Director Curry Barker Pitched Nathan Fielder a Collaboration After Watching ‘You Can See Everything’: ‘I Put It Out in the Water’",
+      "link": "https://variety.com/2026/film/news/curry-barker-nathan-fielder-pitch-you-can-see-everything-1236935473/",
+      "source": "Variety",
+      "published": "2026-10-30T22:28:16Z",
+      "summary": "“Obsession” director Curry Barker is not only a fan of “You Can See Everything,” but he’s already reached out to Nathan Fielder about working together. “I thought it was freakin’ insane and awesome,” Barker told Variety Thursday night at the Time100 Next Gala at Pier59 Studios . “I didn’t know much about [Elizabeth Holmes’] story […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/BARKER-FIELDER.png"
+    },
     {
       "title": "Netflix’s ‘Cliff Booth’ Won’t Play in Regal and Cinemark Imax Theaters",
       "link": "https://variety.com/2026/film/news/regal-cinemark-netflix-cliff-booth-1236935538/",
@@ -38,57 +236,12 @@
       "image": "https://variety.com/wp-content/uploads/2026/10/TITLEThe-Celebrity-Traitors-S2EP-NUMBERTX-9-POST-TX-1000.jpg"
     },
     {
-      "title": "Jennifer Lawrence Says ‘Absolutely F—ing Not’ to Transforming Into X-Men’s Mystique Again",
-      "link": "https://variety.com/2026/film/news/jennifer-lawrence-refuses-mystique-transformation-x-men-1236933335/",
-      "source": "Variety",
-      "published": "2026-10-30T21:31:01Z",
-      "summary": "Jennifer Lawrence played the “X-Men” character Mystique four times on the big screen between 2011 and 2019, and it appears she has no interest whatsoever in slipping back into the mutant’s iconic blue skin. In fact, the Oscar winner’s days of undergoing any extreme makeup and/or prosthetics-driven character transformation are likely over. “My favorite part […",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/MCDXMDA_FE001.jpg"
-    },
-    {
-      "title": "Tom Morello, Annie Lennox, ‘KPop Demon Hunters’ Songwriters Honored at 2026 SONA Awards",
-      "link": "https://www.hollywoodreporter.com/music/music-industry-news/sona-awards-2026-tom-morello-annie-lennox-1236743639/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T21:24:05Z",
-      "summary": "Generational hitmaker Desmond Child and Kobalt CEO Laurent Hubert were also recognized at the ceremony, held at the Skirball Cultural Center.",
-      "category": "movies",
-      "image": ""
-    },
-    {
       "title": "North American Anime, Manga Releases, October 25-31",
       "link": "https://www.animenewsnetwork.com/news/2026-10-30/north-american-anime-manga-releases-october-25-31/.243223",
       "source": "Anime News Network",
       "published": "2026-10-30T21:10:32Z",
       "summary": "Yaiba: Samurai Legend, Sword of the Demon Hunter anime; Naruto x Teenage Mutant Ninja Turtles—Manga Style Edition, Tojima Wants to be a Kamen Rider manga ship",
       "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Léa Seydoux Getting American Cinematheque Retrospective (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/news/lea-seydoux-american-cinematheque-retrospective-1236935548/",
-      "source": "Variety",
-      "published": "2026-10-30T21:00:00Z",
-      "summary": "Léa Seydoux is getting an American Cinematheque retrospective celebrating her extensive filmography. Over the course of two decades, Seydoux has built an acclaimed career in independent filmmaking (the Cannes Palme d’Or winner “Blue is the Warmest Color”) and major productions (Denis Villeneuve’s “Dune” movies and two James Bond films). Seydoux’s American Ci…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300758044.jpg"
-    },
-    {
-      "title": "‘The Mosquito Bowl’ Star Tom Francis on Singing in the Movie Last Minute and the ‘Visceral and Intense’ World War II Scenes",
-      "link": "https://variety.com/2026/film/columns/mosquito-bowl-tom-francis-singing-visceral-intense-wwii-1236931824/",
-      "source": "Variety",
-      "published": "2026-10-30T20:44:25Z",
-      "summary": "SPOILER ALERT: This story reveals major details about Peter Berg’s new real-life World War II film “The Mosquito Bowl.” When British actor Tom Francis signed with his U.S. agents at CAA, he made his aspirations very clear. “One of the first emails I sent to my agents was, ‘This is a list of directors who […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/MCDMOBO_ZX012-1000.jpg"
-    },
-    {
-      "title": "Santa Barbara Film Fest: Inde Navarrette, Jaafar Jackson Among Eight Tapped for Virtuoso Awards",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/santa-barbara-film-fest-inde-navarrette-virtuoso-awards-1236743864/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T20:37:58Z",
-      "summary": "Carrie Coon, Mariana di Girolamo, Rosalind Eleazar, Jordan Firstman, Anthony Ippolito and Kate O'Flynn will also be feted at a ceremony on Feb. 7, 2027.",
-      "category": "movies",
       "image": ""
     },
     {
@@ -110,121 +263,13 @@
       "image": "https://variety.com/wp-content/uploads/2026/10/Criminal-Minds-Evolution.jpg"
     },
     {
-      "title": "‘Criminal Minds’ Ending with 20th Season on Paramount+",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/criminal-minds-ending-paramount-plus-season-20-1236743697/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T20:00:00Z",
-      "summary": "The show has been formally titled 'Criminal Minds: Evolution' since moving to the streamer in 2022.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "Noah Segan Explains How ‘Knives Out’ Helped Make ‘The Only Living Pickpocket in New York’ Possible",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/the-only-living-pickpocket-in-new-york-knives-out-1236743781/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T19:53:37Z",
-      "summary": "Rian Johnson made his friend Segan a promise: if 'Knives Out' works, he'll have the power to produce movies like 'Pickpocket.'",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "‘Iron Man’ Cinematographer Matthew Libatique Says AI ‘Could Replace Marvel’ VFX, but They’ll Never ‘Use AI Actors’",
-      "link": "https://variety.com/2026/film/global/iron-man-matthew-libatique-ai-could-replace-marvel-vfx-1236934879/",
-      "source": "Variety",
-      "published": "2026-10-30T19:30:32Z",
-      "summary": "Stepping outside the airport in Mallorca, three-time Oscar-nominee cinematographer Matthew Libatique was taken aback by the light. He briefly delayed greetings so he could take it all in: the way the autumnal sun kissed baby-pink buildings and glistened against the island’s shores before setting behind the mountains. This is an experience the veteran DP shar…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/VARIETY-SIZING-79.png"
-    },
-    {
-      "title": "Eric Bauza Remembered as a “Once-in-a-Generation” Talent Who Gave Looney Tunes a New Voice",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/looney-tunes-eric-bauza-remembered-1236743625/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T19:28:25Z",
-      "summary": "The voice actor, who died Oct. 25 at 46, revived Bugs, Daffy and Porky for a new era and helped push for the release of ‘Coyote vs. Acme': \"Every single voice actor knew him and loved him.”",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Bob Iger Stresses Value of Communal Cultural Experiences in World “Rife With Disruption and Polarization” at PAC NYC Icons of Culture Gala",
-      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/mickey-mouse-new-greatest-showman-stage-song-bob-iger-event-1236743795/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T19:20:21Z",
-      "summary": "The former Disney CEO was celebrated by Mickey Mouse, Nick Jonas, Ariana DeBose, ABC News stars Robin Roberts and David Muir and Benj Pasek and Justin Paul, who performed a new song from the 'Greatest Showman' stage show at the live-performance-heavy event.",
-      "category": "movies",
-      "image": ""
-    },
-    {
       "title": "Skydance Sets Comms and Publicity Leadership Team, With Several Execs Departing",
       "link": "https://variety.com/2026/film/news/skydance-communications-pr-publicity-leadership-exec-departures-1236935492/",
       "source": "Variety",
       "published": "2026-10-30T19:19:44Z",
       "summary": "The leadership teams across divisions at the new Skydance are continuing to be hashed out, three weeks after the Paramount-Warner Bros. Discovery merger closed. On Friday, Skydance chief communications officer Melissa Zukerman announced the senior members of her team in a memo to staff — and announced the departures of several execs. In her memo, […]",
-      "category": "movies",
+      "category": "tv",
       "image": "https://variety.com/wp-content/uploads/2026/10/Skydance-Paramount-Warner-Bros-Merger.png"
-    },
-    {
-      "title": "‘Big Little Lies’ Season 3 Production Kicked Off This Week — For One Day Only (EXCLUSIVE)",
-      "link": "https://variety.com/2026/tv/news/big-little-lies-season-3-production-began-one-day-only-1236934844/",
-      "source": "Variety",
-      "published": "2026-10-30T19:16:16Z",
-      "summary": "Filming on the long-awaited Season 3 of HBO’s “Big Little Lies” got underway this week — sort of. The series shot for one day at Warner Bros. Studios Burbank’s The Ranch Lot on Thursday; among those in front of the camera was recurring star Merrin Dungey, who has played Detective Adrienne Quinlan on the series […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2019/04/big-little-lies-season-2-4.jpg"
-    },
-    {
-      "title": "‘Christmas at the Kringles’ Director on Mixing Holiday Horror, Humor and Heart With a Cast of Comic Ringers",
-      "link": "https://variety.com/2026/film/features/christmas-at-the-kringles-horror-comedy-1236917031/",
-      "source": "Variety",
-      "published": "2026-10-30T19:15:00Z",
-      "summary": "While directing the comedy-horror film “Christmas at the Kringles,” Kevin Lewis found himself filled with a holly jolly spirit. “When I was shooting some of these scenes, it was so hard for me not to mess them up because I was busting a gut,” he says. “I remember thinking, ‘Gosh, you should do some more […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/MCDCHAT_EC050.jpg"
-    },
-    {
-      "title": "Jessica Lange Hints at Acting Retirement: ‘I Feel Like I’m Coming to an End… It Doesn’t Seem Easy to Get Things Made Anymore’",
-      "link": "https://variety.com/2026/film/news/jessica-lange-retiring-acting-soon-end-1236935304/",
-      "source": "Variety",
-      "published": "2026-10-30T19:04:26Z",
-      "summary": "Jessica Lange teased to Rolling Stone that her retirement from acting is likely coming soon. The Oscar winner returned to film and television this year with the releases of “Long Day’s Journey into Night” and “American Horror Story 13,” respectively, but that might be it for the 77-year-old icon. “I actually feel like I’m coming […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/10/P108QRPS.jpg"
-    },
-    {
-      "title": "Reese Witherspoon’s Hello Sunshine Cuts 50% of Employees After Actress Buys Back Company",
-      "link": "https://variety.com/2026/tv/news/reese-witherspoon-hello-sunshine-layoff-1236935287/",
-      "source": "Variety",
-      "published": "2026-10-30T18:47:56Z",
-      "summary": "Reese Witherspoon’s Hello Sunshine is majorly shrinking. Earlier this month, Witherspoon bought her production company back from Candle Media, the Blackstone-backed label that had acquired a controlling stake in 2021. With the support of the French conglomerate Mediawan, the actress was reportedly able to reacquire the banner for just a fraction of the $900…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Premiere-Of-Apple-TVs-Lucky-Arrivals-1000.jpg"
-    },
-    {
-      "title": "Aerosmith brings Friends Gun N’ Roses, Black Crowes to Hollywood Bowl as Steven Tyler Returns to the Stage",
-      "link": "https://www.hollywoodreporter.com/music/music-news/aerosmith-hollywood-bowl-recap-1236743674/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T18:44:41Z",
-      "summary": "\"We’re going to rock this place so hard you’re going to think the big one is coming,\" Frontman Steven Tyler told the crowd in the group's first show in three years after abruptly canceling their farewell tour back in 2023.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "‘Monday Night Football’ Goes to the Movie Theater: Cinemark Plans Dallas Cowboys Test Run",
-      "link": "https://www.hollywoodreporter.com/business/business-news/nfl-fans-cinemas-cinemark-1236743750/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T18:40:37Z",
-      "summary": "The exhibitor will hold a first-ever live game screening of a Dec. 7 Dallas-Seattle in-market game at its flagship Plano, Texas multiplex.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "How to Watch ‘The Celebrity Traitors’ Season Two Finale Online From the States",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-celebrity-traitors-uk-season-2-online-2026-1236717306/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T18:40:13Z",
-      "summary": "The second season finale airs Friday, Oct. 30 at 8:00 p.m. U.K. time (12 p.m. PT/3 p.m. ET).",
-      "category": "tv",
-      "image": ""
     },
     {
       "title": "Brazil's CCXP Screens World Premiere of Garena Free Fire Game's Free Fire Daybreak Anime",
@@ -234,42 +279,6 @@
       "summary": "Screening takes place at São Paulo Expo on December 5",
       "category": "anime",
       "image": ""
-    },
-    {
-      "title": "Hollywood Celebrates Halloween, ‘The Cat in the Hat’ Premieres and This Week’s Best Events",
-      "link": "https://www.hollywoodreporter.com/gallery/halloween-cat-in-the-hat-red-carpet-events-1236739585/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-30T18:26:41Z",
-      "summary": "Inside this week's biggest Hollywood premieres, parties and openings.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "Netflix’s ‘Haunted Hotel’ Renewed for Season 3",
-      "link": "https://variety.com/2026/tv/news/netflixs-haunted-hotel-season-3-1236935451/",
-      "source": "Variety",
-      "published": "2026-10-30T18:24:53Z",
-      "summary": "“Haunted Hotel” is now accepting reservations for 2027, as Netflix has renewed the animated series for third season. The adult comedy comes from “Rick & Morty” writer Matt Roller and follows a single mother who runs the world’s most haunted hotel, the Undervale. As she juggles raising her two children with managing a slew of […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2025/06/Haunted-Hotel.jpg"
-    },
-    {
-      "title": "Eric Bauza to Make Posthumous ‘Simpsons’ Debut: Late ‘Looney Tunes’ Voice Actor Plays Two Characters",
-      "link": "https://variety.com/2026/tv/news/eric-bauza-osthumous-simpsons-debut-two-characters-1236934521/",
-      "source": "Variety",
-      "published": "2026-10-30T18:24:40Z",
-      "summary": "In recent years, Eric Bauza had become one of the most successful and popular voice-over artists in the business, including his command of the entire library of Bugs Bunny and other “Looney Tunes” characters. But there was one iconic show that had eluded him until recently: “The Simpsons.” Bauza recently made that dream come true […]",
-      "category": "anime",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Eric-Bauza-Simpsons.jpg"
-    },
-    {
-      "title": "NFL to Face New Trial in Sunday Ticket Class-Action Lawsuit to Determine Financial Damages",
-      "link": "https://variety.com/2026/tv/news/nfl-sunday-ticket-verdict-retrial-sunday-ticket-lawsuit-1236935444/",
-      "source": "Variety",
-      "published": "2026-10-30T18:16:02Z",
-      "summary": "A federal appeals court ordered a new trial in the class-action lawsuit against the NFL to determine how much the league must pay in financial damages to affected subscribers of its Sunday Ticket out-of-market games package, who said they were overcharged by the NFL and its partners for the service. On Friday, the 9th Circuit […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2024/05/NFL-Netflix.jpg"
     },
     {
       "title": "Hiragi-san's House of Vampires Manga Gets TV Anime",
@@ -601,15 +610,6 @@
       "source": "Anime News Network",
       "published": "2026-10-29T00:00:00Z",
       "summary": "New KORORE manga launches on February 25",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Sachiko Uguisu's Kaikai Gigigigigi Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/sachiko-uguisu-kaikai-gigigigigi-manga-ends/.243263",
-      "source": "Anime News Network",
-      "published": "2026-10-28T23:00:00Z",
-      "summary": "Series debuted in April 2025",
       "category": "anime",
       "image": ""
     }
