@@ -1,14 +1,266 @@
 {
-  "updated_at": "2026-11-08T22:07:27Z",
+  "updated_at": "2026-11-09T06:32:30Z",
   "items": [
     {
-      "title": "‘Avedon’ Review: Ron Howard’s Thrilling Documentary About Richard Avedon, the Great Photographer Who Turned Head-On Portraits Into an Art Form",
-      "link": "https://variety.com/2026/film/reviews/avedon-review-ron-howard-richard-avedon-1236942472/",
-      "source": "Variety",
-      "published": "2026-11-08T21:02:08Z",
-      "summary": "\"Avedon,\" Ron Howard’s documentary about the legendary photographer, is a fantastic movie. It’s the best documentary Ron Howard has made (my favorite before this: \"The Beatles: Eight Days a Week — The Touring Years\"), and it’s been edited in a way that’s so supple and artful that its technique should be studied in filmmaking classes. (The film’s editor is An…",
+      "title": "‘A Photographer in Cannes’ Follows an Estonian Who Knows the World’s Red (and Black) Carpets – and Loved Getting a Vin Diesel Fist Bump",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/a-photographer-in-cannes-doc-film-poff-interview-vin-diesel-1236748349/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-09T06:00:00Z",
+      "summary": "Erlend Staub, who is also the official photographer of the Tallinn Black Nights Film Fest, is in focus in the doc from Kullar Vilmne, which celebrates its premiere at Tallinn's 30th edition.",
       "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/avedon-netflix-2.jpg.webp"
+      "image": ""
+    },
+    {
+      "title": "John Oliver Weighs In on Midterm Elections, Elon Musk and the Ultimate Southern Diss",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/last-week-tonight-recap-john-oliver-midterm-elections-1236750710/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-09T05:10:17Z",
+      "summary": "“Democrats won so big on Tuesday it was sometimes genuinely hard to take all the positive results in,\" the 'Last Week Tonight' hosted said on Sunday's show.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "My Hero Ultra Rumble Game Gets Mobile Version",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
+      "source": "Anime News Network",
+      "published": "2026-11-09T04:59:00Z",
+      "summary": "English, Japanese teasers streamed",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Hirayasumi TV Anime to Stream on Netflix",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/hirayasumi-tv-anime-to-stream-on-netflix/.243636",
+      "source": "Anime News Network",
+      "published": "2026-11-09T04:56:48Z",
+      "summary": "Global streaming begins in January",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Live-Action Golden Kamuy: Karafuto Pursuit Arc Series Unveils More Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/live-action-golden-kamuy-karafuto-pursuit-arc-series-unveils-more-cast/.243635",
+      "source": "Anime News Network",
+      "published": "2026-11-09T04:30:18Z",
+      "summary": "Ayana Shiramoto, Hiroto Ōshita join cast",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
+      "link": "https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/",
+      "source": "Variety",
+      "published": "2026-11-09T04:28:32Z",
+      "summary": "After issuing an urgent warning prior to the midterms about the GOP’s increasingly troubling ties to neo-Nazis (with a little dig at Elizabeth Holmes and Billy Evans, of “You Can See Everything” infamy, thrown in for good measure), John Oliver returned to the “Last Week Tonight” desk on Sunday to bask in the Democrats’ blue […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Michigan-Democratic-Senate-Candidate-Haley-Stevens-Holds-Primary-Night-Event-In-Detroit-President-Trump-Holds-A-Cabinet-Meeting-At-The-White-House-1000.jpg"
+    },
+    {
+      "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
+      "source": "Anime News Network",
+      "published": "2026-11-09T04:22:41Z",
+      "summary": "Anime of manga will debut globally on Netflix on November 26",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
+      "source": "Anime News Network",
+      "published": "2026-11-09T04:02:35Z",
+      "summary": "English dub cast revealed for anime based on writer Sakusei Kenkyūjo, artist Yui Jōyama's manga",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Live-Action My Sister's Boyfriend Film's Clip Shows Sui, Midori Rescuing Dog",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/live-action-my-sister-boyfriend-film-clip-shows-sui-midori-rescuing-dog/.243632",
+      "source": "Anime News Network",
+      "published": "2026-11-09T03:22:43Z",
+      "summary": "Sui rescues abandoned dog with her sister's boyfriend in clip from December 4 film",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Trump Reflects on Republicans’ Midterm Losses, Reacts to J.D. Vance’s Own Analysis in ’60 Minutes’ Interview",
+      "link": "https://www.hollywoodreporter.com/news/general-news/trump-republicans-midterm-losses-60-minutes-interview-1236750685/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-09T03:22:13Z",
+      "summary": "The president offers a few reasons why he believes the Democrats gave his party a crushing defeat last week.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Goldwyn Bets on French WW2 Epic ‘De Gaulle’ Crossing Over to U.S. Audiences: ‘It’s the Story of an Ally’",
+      "link": "https://variety.com/2026/film/global/goldwyn-french-ww2-epic-de-gaulle-crossing-over-u-s-audiences-1236942834/",
+      "source": "Variety",
+      "published": "2026-11-09T03:16:45Z",
+      "summary": "Antonin Baudry’s two-part World War II epic about Charles de Gaulle made its U.S. premiere Saturday at the American French Film Festival in Los Angeles, drawing a seven-minute standing ovation after both installments, each running more than two and a half hours, played back-to-back to packed audiences at the DGA Theater. The €74 million production, […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/11/De-Gaulle.webp"
+    },
+    {
+      "title": "China Box Office: ‘Traces of Justice’ Reclaims Top Spot as Local Debuts ‘Embers’ and ‘The Coffin Swap’ Arrive",
+      "link": "https://variety.com/2026/film/box-office/china-box-office-traces-of-justice-reclaims-top-spot-1236942862/",
+      "source": "Variety",
+      "published": "2026-11-09T03:05:03Z",
+      "summary": "New Classics Pictures’ crime procedural drama “Traces of Justice” rebounded to first place at the mainland China box office during the Nov. 6–8 weekend, collecting RMB21.5 million ($3.2 million) over the three-day frame, according to data from Artisan Gateway. The performance lifted the multi-decade investigation epic to $103.7 million since its Oct. 1 relea…",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Traces-of-Justice.jpg"
+    },
+    {
+      "title": "‘Love Is Blind’ Creator on Protecting the Cast and Why He Chose to Keep Rob’s Attack on Production in the Final Cut",
+      "link": "https://variety.com/2026/tv/news/love-is-blind-creator-rob-attack-michaella-1236942023/",
+      "source": "Variety",
+      "published": "2026-11-09T03:00:00Z",
+      "summary": "SPOILER ALERT: This post contains spoilers for Season 11 of “Love Is Blind,” including the reunion, now streaming on Netflix. Another season of “Love Is Blind” has wrapped up. The Season 11 reunion dropped on Netflix on Sunday, revealing that the one couple who did say “I do” on their wedding day, Sarah Williams and […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Love_Is_Blind_n_S11_E9_00_40_54_05RC.jpg"
+    },
+    {
+      "title": "‘You Can See Everything’ Sweeps Critics Choice Documentary Awards",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/2026-critics-choice-documentary-awards-winners-list-1236750661/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-09T02:32:36Z",
+      "summary": "Ron Howard and Jehane Noujaim were honored at the 11th annual celebration of nonfiction filmmaking in New York.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "Microdrama Makers From Turkey and Japan Bet on Emotional Hooks and Infuriating Villains at Taiwan Creative Content Fest",
+      "link": "https://variety.com/2026/tv/markets-festivals/microdrama-makers-turkey-japan-bet-hooks-villains-1236942844/",
+      "source": "Variety",
+      "published": "2026-11-09T02:18:43Z",
+      "summary": "Microdramas compete for attention in crowded mobile feeds, but a strong opening hook does not always need a dramatic twist, İlkin Kavukcu, founder and CEO of Turkish studio İki Dakika Creative House, said at a Taiwan Creative Content Fest (TCCF) session on microdramas in Taipei. Kavukcu said her studio looks for moments of emotional recognition […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/11/TCCF-microdrama-panel.jpg"
+    },
+    {
+      "title": "‘Gangs of London’ Director Kim Hong-sun Shoots Korean Martial Arts Action Film ‘The Hit List’ With Jung Woo-sung, ‘Squid Game’ Star Wi Ha-jun",
+      "link": "https://variety.com/2026/film/news/gangs-of-london-director-kim-hong-sun-korean-action-film-hit-list-1236942835/",
+      "source": "Variety",
+      "published": "2026-11-09T01:31:22Z",
+      "summary": "Kim Hong-sun, the Korean director of “Project Wolf Hunting” and Season 3 of British crime drama “Gangs of London,” is shooting “The Hit List,” a martial arts revenge actioner set during Korea’s Joseon era, with Jung Woo-sung and “Squid Game” star Wi Ha-jun. “The Hit List” adapts a Kakao webtoon that has drawn more than […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Kim-Hong-sun.jpg"
+    },
+    {
+      "title": "Remembering Sebastián Lelio, an Auteur Who Centered Women’s Stories With Style and Sensitivity",
+      "link": "https://variety.com/2026/film/news/remembering-sebastian-lelio-1236942425/",
+      "source": "Variety",
+      "published": "2026-11-09T01:25:20Z",
+      "summary": "When it was announced, in 2017, that the Chilean writer-director Sébastian Lelio was to helm a U.S. remake of his 2013 breakout film “Gloria,” admirers of the original — and indeed of Lelio himself — had cause for concern. English-language do-overs of world cinema successes frequently go awry; furthermore, we had the cautionary tale of […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2017/11/sebastian-lelio-variety-facetime-interview.jpg"
+    },
+    {
+      "title": "Trump on ’60 Minutes’ Reflects on Midterm Loss, Death and Forgiveness: ‘I Do Hate Some of My Enemies’",
+      "link": "https://variety.com/2026/politics/news/trump-60-minutes-midterms-death-forgiveness-enemies-1236942778/",
+      "source": "Variety",
+      "published": "2026-11-09T01:07:24Z",
+      "summary": "President Trump told “60 Minutes” that he blames Republican candidates and the war in Iran for the party’s midterm defeat, and acknowledged that his mass deportation policy was “too tough.” Sitting down with correspondent Ross Douthat, Trump was also asked about corruption, UFOs and his views of the afterlife. Douthat, a Catholic conservative, asked Trump [……",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-3.51.55-PM.png"
+    },
+    {
+      "title": "K-Pop Concert Film ‘Twice: This Is For… You’ Acquired by Bleecker Street’s Crosswalk and Universal Pictures International",
+      "link": "https://variety.com/2026/film/news/twice-this-is-for-you-bleecker-street-crosswalk-upcg-1236942090/",
+      "source": "Variety",
+      "published": "2026-11-09T01:00:00Z",
+      "summary": "Bleecker Street’s event cinema division Crosswalk and Universal Pictures Content Group have acquired North American and international rights, respectively, to “Twice: This Is For… You.” The film captures K-pop phenomenon Twice at London’s O2 Arena during their “This Is For” world tour. It features concert footage and exclusive behind-the-scenes access to the…",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2024/03/Unknown-8.jpg"
+    },
+    {
+      "title": "Nicolas Cage Calls ‘Spider-Noir’ Season 1 ‘Perfect’ and Says He Felt Relieved When It Was Canceled: ‘You Never Wanna Get Stuck Repeating a Character’",
+      "link": "https://variety.com/2026/tv/news/nicolas-cage-spider-noir-cancellation-1236942808/",
+      "source": "Variety",
+      "published": "2026-11-09T00:57:48Z",
+      "summary": "Prime Video canceled “Spider-Noir” after just one season, and while fans were shocked, it was good news for star Nicolas Cage, who has no desire to keep telling Ben Reilly’s story. Speaking with IGN in a recent interview, the “National Treasure” actor responded with a simple “no” when asked if he felt there was more […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/10/TCDSPNO_ZU019.jpg"
+    },
+    {
+      "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
+      "source": "Anime News Network",
+      "published": "2026-11-09T00:44:26Z",
+      "summary": "Series debuts next January",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "Godzilla Minus Zero Earns Record $32 Million in N. American Opening Weekend",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/godzilla-minus-zero-earns-record-32-million-in-n-american-opening-weekend/.243628",
+      "source": "Anime News Network",
+      "published": "2026-11-09T00:41:47Z",
+      "summary": "Highest-ever U.S. opening for live-action foreign film adds to global total of US$63 million",
+      "category": "anime",
+      "image": ""
+    },
+    {
+      "title": "‘Cheers,’ ‘Taxi’ Showrunner Ken Estin and Mentalist Banachek Take Psychic Fraud Series ‘Psychic Predators’ From Taiwan Creative Content Fest to American Film Market (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/markets-festivals/cheers-showrunner-estin-banachek-psychic-predators-afm-1236941946/",
+      "source": "Variety",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "Two-time Emmy winner Ken Estin, showrunner of “Taxi” and “Cheers,” is steering “Psychic Predators,” a paranormal dramatic comedy starring mentalist Banachek as himself. Organic Media Group (OMG) unveiled the series at Taiwan Creative Content Fest (TCCF) in Taipei, and it is also heading to the American Film Market. Estin, whose resume also takes in “The […]",
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Psychic-Predators-Banacheck.jpg"
+    },
+    {
+      "title": "Denis Villeneuve Teases James Bond Progress at LACMA Art + Film Gala: ‘I’m Having a Great Time’",
+      "link": "https://variety.com/gallery/denis-villeneuve-james-bond-lacma-art-film-gala/",
+      "source": "Variety",
+      "published": "2026-11-08T23:54:42Z",
+      "summary": "When Denis Villeneuve arrived at LACMA on Saturday night, his black Gucci tuxedo made him look more like James Bond than a director who’s spent the last decade in the desert of Arrakis. Perhaps that’s fitting since the filmmaker is currently putting the final touches on the 70mm Imax print of “Dune: Part Three” while […]",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/11/GF1_9905.jpg"
+    },
+    {
+      "title": "‘Spy x Family’ Season 4 and New Theatrical Film Set for 2027",
+      "link": "https://variety.com/2026/film/news/spy-x-family-season-4-new-theatrical-film-2027-1236942775/",
+      "source": "Variety",
+      "published": "2026-11-08T23:51:22Z",
+      "summary": "Anime series “Spy x Family” will return for a fourth season in 2027. Japanese studio and exhibitor Toho Co., Ltd. is also lining up a new feature film to open in Japan the same year. To mark the news, Toho released a teaser visual for Season 4, the first image from the new season to […]",
+      "category": "anime",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Spy-x-Kids.jpg"
+    },
+    {
+      "title": "Korea Box Office: Anime Phenomenon ‘Chiikawa’ Staves Off Corporate Thriller ‘Final Interview’ to Retain Top Spot",
+      "link": "https://variety.com/2026/film/box-office/korea-box-office-chiikawa-final-interview-1236942770/",
+      "source": "Variety",
+      "published": "2026-11-08T23:42:33Z",
+      "summary": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” held onto the top spot at the South Korean box office over the weekend of Nov. 6–8, capturing its fourth consecutive weekend crown. According to data from KOBIS, the tracking service operated by the Korean Film Council, the Toho-distributed fantasy feature generated $1.1 […]",
+      "category": "anime",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Chiikawa-the-Movie-The-Secret-of-Mermaid-Island.jpg"
+    },
+    {
+      "title": "‘Steps’ Review: A Stellar Voice Cast Including Amanda Seyfried, Ali Wong and Bette Midler Gets Stuck in a Tortured Revisionist Fairy Tale",
+      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/steps-review-amanda-seyfried-ali-wong-bette-midler-netflix-1236750081/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-08T23:30:00Z",
+      "summary": "Stephanie Hsu, Nikki Glaser, Daniel Radcliffe and Peter Dinklage also feature in Netflix’s animated overhaul of the ‘Cinderella’ story, told from the perspective of her “evil” stepsister.",
+      "category": "movies",
+      "image": ""
+    },
+    {
+      "title": "‘Godzilla Minus Zero’ and ‘Ramayana: Rise of a Legend’ Roar at International Box Office",
+      "link": "https://variety.com/2026/film/box-office/godzilla-minus-zero-ramayana-nternational-box-office-1236942760/",
+      "source": "Variety",
+      "published": "2026-11-08T23:22:44Z",
+      "summary": "Asian cinema dominated the worldwide box office over the weekend as Toho and Takashi Yamazaki’s “Godzilla Minus Zero” and Namit Malhotra and Nitesh Tiwari’s Indian epic “Ramayana: Rise of a Legend” posted thunderous global debuts, fueled by historic attendance on premium large format and Imax screens. Leading the charge across the globe, “Godzilla Minus Zero…",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Godzilla-Ramayana.jpg"
+    },
+    {
+      "title": "Oscar Predictions: Best Casting — ‘Being Heumann’ and ‘La Bola Negra’ Found the Year’s Boldest Discoveries. Will the Academy Reward Them?",
+      "link": "https://variety.com/feature/2027-oscars-best-casting-predictions-1236878513/",
+      "source": "Variety",
+      "published": "2026-11-08T22:50:00Z",
+      "summary": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis. The prediction pages reflect the current standings in the race and do not reflect [……",
+      "category": "movies",
+      "image": "https://variety.com/wp-content/uploads/2026/11/1000044877.jpg"
     },
     {
       "title": "Denis Villeneuve Praises Creative Process Over AI Prompts and Stops Short of Naming New Bond at LACMA Art+Film Gala",
@@ -43,8 +295,8 @@
       "source": "Variety",
       "published": "2026-11-08T19:19:59Z",
       "summary": "Nearly a year after “Heated Rivalry” debuted on streaming, fans are venturing to movie theaters to rewatch the steamy romance between hockey superstars Shane Hollander (Hudson Williams) and Ilya Rozanov (Connor Storrie). The limited theatrical release, which is scheduled from Nov. 6 through Nov. 30, has generated $1.4 million from 945 theaters, according to…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2025/12/Heated_Rivalry_-__Episode_103-15.jpg"
+      "category": "tv",
+      "image": "https://variety.com/wp-content/uploads/2025/11/heated-rivalry.jpg"
     },
     {
       "title": "Bill Skarsgard Jokes About Using Pennywise Voice When His Kids Misbehave: “Schizophrenic Daddy”",
@@ -56,49 +308,13 @@
       "image": ""
     },
     {
-      "title": "Andy Serkis Says He Was ‘Evangelical’ About Performance Capture After Playing Gollum in ‘Lord of the Rings’ but Now Accepts It’s ‘Misunderstood’: ‘If You Get It? Great’",
-      "link": "https://variety.com/2026/film/news/andy-serkis-motion-capture-gollum-1236942445/",
-      "source": "Variety",
-      "published": "2026-11-08T18:58:21Z",
-      "summary": "Andy Serkis, who played an instrumental role in bringing the on-screen version of Gollum (also known as Sméagol) to life in “The Lord of the Rings” franchise, is reflecting on the technology that helped him do so. Gollum, a central character in the films, is the result of both Serkis’ performance and computer-generated elements through […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/GettyImages-1247589803.jpg"
-    },
-    {
       "title": "Sanfic Prizes: ‘Monguen’ and ‘Narciso’ Win at Pared-Back Ceremony Due to Sudden Demise of ‘A Fantastic Woman’ Director Sebastian Lelio",
       "link": "https://variety.com/2026/film/global/sanfic-prizes-monguen-narciso-sebastian-lelio-remembered-1236942162/",
       "source": "Variety",
       "published": "2026-11-08T18:27:06Z",
       "summary": "The unexpected demise Nov. 6 of Chile’s Oscar-winning Sebastián Lelio (“A Fantastic Woman”) cast a pall over the closing ceremonies of both the festival and industry section of the Santiago Film Festival (Sanfic), which wraps Nov. 8. The red carpet portions of the industry and festival ceremonies held Nov. 6 and 7, respectively, were cancelled. […]",
-      "category": "movies",
+      "category": "tv",
       "image": "https://variety.com/wp-content/uploads/2026/11/Monguen_Still-3-Mariella-Chavez.jpg"
-    },
-    {
-      "title": "Judi Dench Says Vin Diesel Sent Her Flowers ‘the Length of a Kayak’ to Persuade Her to Join ‘The Chronicles of Riddick’: I’m ‘Far Too Easily Wooed’",
-      "link": "https://variety.com/2026/film/news/judi-dench-reveals-she-was-wooed-1236942417/",
-      "source": "Variety",
-      "published": "2026-11-08T18:08:07Z",
-      "summary": "Judi Dench can’t say no to a big bouquet of flowers, especially if they’re kayak-sized and come from Vin Diesel. “He came to see me at the Haymarket Theatre to ask if I’d be in ‘The Chronicles of Riddick,’” Dench wrote in her new memoir, “Is It Too Late to Make a Run for It?” […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/MCDCHOF_EC042.jpg"
-    },
-    {
-      "title": "Box Office: ‘You Can See Everything’ Becomes Second-Biggest Doc Ever in North America With $80 Million",
-      "link": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/",
-      "source": "Variety",
-      "published": "2026-11-08T17:52:33Z",
-      "summary": "“You Can See Everything” has remained a box office juggernaut, powering to $80 million in North America after just four weekends of release. At this rate, A24’s red-hot movie about Theranos fraudster Elizabeth Holmes is primed to surpass $100 million domestically, a hugely impressive milestone for a nearly three-hour documentary. Over the weekend, “You Can […",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/09/Screenshot-2026-09-06-at-7.57.52-PM.webp"
-    },
-    {
-      "title": "Cineplex Boards Sanfic Title ‘La Residencia’ From ‘Algo Azul’ Director Mariel García Spooner",
-      "link": "https://variety.com/2026/film/global/cineplex-la-residencia-mariel-garcia-spooner-algo-azul-1236941270/",
-      "source": "Variety",
-      "published": "2026-11-08T17:12:50Z",
-      "summary": "Latin American distributor Cineplex has picked up both North and South American sales rights to “La Residencia,” Mariel Garcia Spooner’s follow up to hit “Algo Azul.” “La Resdemcia” has just participated in the Sanfic Industria’s WIP Iberoamericana section, a competition of films from Latin America, Spain and Portugal screened in post-production at the indus…",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/La-Residencia-still-2-1.jpg"
     },
     {
       "title": "THR Visionary: 5 Janusz Kaminski Shots",
@@ -128,42 +344,6 @@
       "image": ""
     },
     {
-      "title": "Box Office: ‘Godzilla Minus Zero’ Roars With $31 Million Debut, ‘Cat in the Hat’ Fizzles With $20 Million",
-      "link": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/",
-      "source": "Variety",
-      "published": "2026-11-08T16:01:33Z",
-      "summary": "The Cat in the Hat was no match for the mighty Godzilla. “Godzilla Minus Zero” climbed to the top of box office charts with $31.6 million from 3,254 theaters, a roaring start for a foreign-language epic in North America. Meanwhile, “The Cat in the Hat” stumbled with $20 million from 4,003 locations, a weak debut […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/MCDGOMI_EC019.jpg"
-    },
-    {
-      "title": "Where to Watch the 2026 NASCAR Cup Series Championship Race Live Online",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/watch-nascar-cup-series-championship-race-2026-free-stream-1236750096/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-08T16:00:00Z",
-      "summary": "The 2026 season finale is set for Sunday, Nov. 8 at Homestead-Miami Speedway.",
-      "category": "tv",
-      "image": ""
-    },
-    {
-      "title": "Janusz Kaminski, the Polish Cameraman Who Taught Hollywood How to See",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/janusz-kaminski-thr-visionary-cinematographer-award-1236750373/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-08T13:45:00Z",
-      "summary": "The cinematographer behind 'Schindler's List,' 'Saving Private Ryan' and 'The Diving Bell and the Butterfly' is THR's Visionary of the Year.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "To Make a Doc About a Nomadic Cyclist, the ‘Perfect Road’ Filmmakers Spent 3 Months in a Campervan",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/perfect-road-doc-film-directors-spent-months-in-campervan-poff-1236744367/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-08T11:01:00Z",
-      "summary": "Adam and Christian Bonke recall how they and their cinematographer followed Maximilian Schnell in a \"not so big\" vehicle with \"a lot of equipment\" to shoot material for the film now screening at Tallinn.",
-      "category": "movies",
-      "image": ""
-    },
-    {
       "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
       "link": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
       "source": "Anime News Network",
@@ -182,33 +362,6 @@
       "image": ""
     },
     {
-      "title": "Camerimage Opens With a Robot, an AI Reckoning and a Minute of Silence for Kraków",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/camerimage-2026-artificial-darren-aronofsky-janusz-kaminski-1236750348/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-08T10:29:18Z",
-      "summary": "The 34th edition of Camerimage kicked off with Luca Guadagnino’s 'Artificial' and included honors for Darren Aronofsky and the THR Visionary Award for cinematographer Janusz Kamiński.",
-      "category": "movies",
-      "image": ""
-    },
-    {
-      "title": "Taiwan’s Content Agency and Partners Put $180 Million Into 27 Projects, From an ‘Our Blues’ Remake to an Off-Broadway Musical",
-      "link": "https://variety.com/2026/film/asia/taiwan-content-agency-partners-180-million-27-projects-1236942318/",
-      "source": "Variety",
-      "published": "2026-11-08T09:04:48Z",
-      "summary": "The Taiwan Creative Content Agency (TAICCA) and its partners have invested in 27 projects, backed by NT$5.64 billion ($180 million) in total, including NT$740 million ($23.7 million) from the agency and NT$4.9 billion ($157 million) in private capital, TAICCA chair Sue Wang said at the Taiwan Creative Content Fest (TCCF). TAICCA brought together its four […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/TAICCA-JV.jpg"
-    },
-    {
-      "title": "Elon Musk Is Portrayed on ‘SNL’: “The Worst Thing South Africa Has Ever Done”",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/elon-musk-snl-appearance-jeremy-culhane-watch-jost-1236750304/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-08T06:58:18Z",
-      "summary": "Jeremy Culhane plays the character in the show’s latest attempt to assess its relationship with the mogul.",
-      "category": "movies",
-      "image": ""
-    },
-    {
       "title": "New Minami-ke Korekara TV Anime's Teaser Unveils Cast, Staff, April Debut",
       "link": "https://www.animenewsnetwork.com/news/2026-11-08/new-minami-ke-korekara-tv-anime-teaser-unveils-cast-staff-april-debut/.243619",
       "source": "Anime News Network",
@@ -218,60 +371,6 @@
       "image": ""
     },
     {
-      "title": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
-      "link": "https://variety.com/2026/tv/news/snl-weekend-update-elon-musk-midterms-election-1236942283/",
-      "source": "Variety",
-      "published": "2026-11-08T05:57:06Z",
-      "summary": "An unhinged “Elon Musk” hit the “Saturday Night Live” Weekend Update desk this week to address the outcome of Tuesday’s midterm elections — and Musk, as played by “SNL” featured player Jeremy Culhane, didn’t quite know how to address it. The real Musk, of course, spent nearly $500 million on Republican candidates, especially in his […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-12.37.27-AM.png"
-    },
-    {
-      "title": "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody",
-      "link": "https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/",
-      "source": "Variety",
-      "published": "2026-11-08T05:29:04Z",
-      "summary": "Following a busy cold open that saw Texas Senator-elect James Talarico overshadow Donald Trump and a monologue crashed by his future movie co-star Emma Stone, “SNL” host Druski — who made history as the first digital content creator to preside over the show (who had yet to achieve crossover success, a la Issa Rae and […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-12.19.32-AM.png"
-    },
-    {
-      "title": "Emma Stone Ambushes Druski’s ‘SNL’ Monologue in Adorable Fashion",
-      "link": "https://variety.com/2026/tv/news/emma-stone-druski-snl-monologue-the-catch-1236942272/",
-      "source": "Variety",
-      "published": "2026-11-08T05:00:40Z",
-      "summary": "When Druski was announced as a future host of “Saturday Night Live,” it was its most interesting move in quite some time. The sketch-comedy show had tapped its first exclusively digital creator (who hadn’t experienced crossover success, a la Issa Rae or Quinta Brinson) to serve as its master of ceremonies, marking its first major […]",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.48.59-PM.png"
-    },
-    {
-      "title": "James Talarico Crashes ‘SNL’ Cold Open: ‘I’m the Guy Who’s Been Texting You Every Day Asking for $5’",
-      "link": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
-      "source": "Variety",
-      "published": "2026-11-08T04:53:48Z",
-      "summary": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded “Donald Trump” (James Austin Johnson): “Infinity!” Talarico popped up near the end of the cold open to cheers…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.36.08-PM.png"
-    },
-    {
-      "title": "Former NCT Member Lucas Wong Makes Acting Debut in Taiwanese Folk-Music Drama ‘A Time’ With Jerry Yan, Ning Chang at Taiwan Creative Content Fest",
-      "link": "https://variety.com/2026/film/markets-festivals/nct-lucas-wong-acting-debut-taiwan-drama-a-time-1236942261/",
-      "source": "Variety",
-      "published": "2026-11-08T04:47:28Z",
-      "summary": "Taiwanese director Tsao Jui-yuan unveiled his new drama series “A Time,” rooted in Taiwan’s campus folk music movement of the 1970s, at the Taiwan Creative Content Fest (TCCF). Tsao, known for “Crystal Boys,” “A Touch of Green” and “Seqalu: Formosa 1867,” spent eight years developing the project, which traces four decades of friendship, love and […]",
-      "category": "movies",
-      "image": "https://variety.com/wp-content/uploads/2026/11/A-Time-launch-TCCF.jpg"
-    },
-    {
-      "title": "IP Companies Spin Books Into Sold-Out Plays, Series and Signature Scents at Taiwan Creative Content Fest",
-      "link": "https://variety.com/2026/global/markets-festivals/taiwanese-ip-firms-spin-books-sold-out-plays-series-scents-1236942234/",
-      "source": "Variety",
-      "published": "2026-11-08T02:24:32Z",
-      "summary": "Taiwanese companies laid out how original stories can grow from books into stage plays, series, fragrances and even travel itineraries at a Taiwan Creative Content Fest (TCCF) session on cross-sector intellectual property in Taipei. “The original intention behind developing IP is for the industry to thrive together, so everyone can make money,” said Mimi Wan…",
-      "category": "tv",
-      "image": "https://variety.com/wp-content/uploads/2026/11/TCCF-sustainable-IP.jpg"
-    },
-    {
       "title": "Harajuku Himegoto House Multimedia Project Announced",
       "link": "https://www.animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
       "source": "Anime News Network",
@@ -279,15 +378,6 @@
       "summary": "Project about cafe staffed by assassins includes TV anime",
       "category": "anime",
       "image": ""
-    },
-    {
-      "title": "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project",
-      "link": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
-      "source": "Variety",
-      "published": "2026-11-07T23:43:25Z",
-      "summary": "OLM, the Japanese animation group behind the “Pokemon” anime series and films, has developed an AI coloring tool that picks up a show’s look from just three hand-painted frames, OLM Digital board director Yotsukura Tatsuo said at the Taiwan Creative Content Fest (TCCF) in Taipei. The tool came out of ANIMINS, a 15-month research project […]",
-      "category": "anime",
-      "image": "https://variety.com/wp-content/uploads/2026/11/TCCF-AI-animation.jpg"
     },
     {
       "title": "Makoto Furukawa Writes, Sings Ending for One-Punch Man Season 3's 2nd Part",
@@ -529,78 +619,6 @@
       "source": "Anime News Network",
       "published": "2026-11-05T15:00:37Z",
       "summary": "Alan Lee, Courtney Lin, Xanthe Huynh, more star in English dub that debuted on October 31",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "MAGES. Works on New Girls und Panzer Console Game",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/mages-works-on-new-girls-und-panzer-console-game/.243557",
-      "source": "Anime News Network",
-      "published": "2026-11-05T13:19:48Z",
-      "summary": "Franchise announces new game on November 14 at Oarai",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "A Few Moments of Cheers' Studio Hurray! Animates Wondering Mate Net Shorts",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/a-few-moments-of-cheers-studio-hurray-animates-wondering-mate-net-shorts/.243559",
-      "source": "Anime News Network",
-      "published": "2026-11-05T12:44:43Z",
-      "summary": "Yuno Nakahara, Nobuhiko Okamoto play avatars from discontinued apps",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Fool Night Anime's Trailer Reveals Theme Songs, Additional Cast",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/fool-night-anime-trailer-reveals-theme-songs-additional-cast/.243524",
-      "source": "Anime News Network",
-      "published": "2026-11-05T11:00:00Z",
-      "summary": "Tempalay, Nowlu perform theme songs for November 26 anime",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Senren * Banka Anime Reveals TV Format",
-      "link": "https://www.animenewsnetwork.com/daily-briefs/2026-11-05/senren-banka-anime-reveals-tv-format/.243554",
-      "source": "Anime News Network",
-      "published": "2026-11-05T10:10:31Z",
-      "summary": "The official X (formerly Twitter) account for the anime adaptation of Yuzu Soft's Senren * Banka visual novel opened on Thursday and revealed...",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Satoshi Mizukami's Spirit Circle Manga Gets TV Anime in December",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/satoshi-mizukami-spirit-circle-manga-gets-tv-anime-in-december/.243555",
-      "source": "Anime News Network",
-      "published": "2026-11-05T09:31:49Z",
-      "summary": "Late director Tatsuo Satō helmed his final work at studios NAGOMI x EOTA",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "New Code Geass Star Chaser Aspal Anime Unveils Cast, More Staff",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/new-code-geass-star-chaser-aspal-anime-unveils-cast-more-staff/.243547",
-      "source": "Anime News Network",
-      "published": "2026-11-05T09:05:00Z",
-      "summary": "Ivan Shibata, Hibiku Yamamura star in Sunrise anime",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Ryōta Takeuchi",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/the-seven-knights-of-the-marronnier-kingdom-anime-casts-ryota-takeuchi/.243538",
-      "source": "Anime News Network",
-      "published": "2026-11-05T04:25:45Z",
-      "summary": "Takeuchi plays character Saturno in episode 6 on Saturday",
-      "category": "anime",
-      "image": ""
-    },
-    {
-      "title": "Live-Action Wandance Film's Trailer Previews Theme Song, Dance Scenes",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/live-action-wandance-film-trailer-previews-theme-song-dance-scenes/.243536",
-      "source": "Anime News Network",
-      "published": "2026-11-05T04:21:18Z",
-      "summary": "Film opens in Japan on November 27",
       "category": "anime",
       "image": ""
     }
