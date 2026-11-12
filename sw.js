@@ -1,4 +1,4 @@
-const CACHE='watch-time-shell-v1.59';
+const CACHE='watch-time-shell-v1.60';
 const SHELL=['./','./index.html','./manifest.json'];
 self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(['./index.html']).catch(()=>{})))});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const key of await caches.keys()){if(key.startsWith('watch-time-shell-')&&key!==CACHE)await caches.delete(key)}await self.clients.claim()})())});
