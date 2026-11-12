@@ -172,6 +172,13 @@ body.details-open .app{padding-bottom:28px}
 .wt-account-hero-main .avatar-button img{width:100%;height:100%;aspect-ratio:1/1;object-fit:cover;border-radius:50%}
 .wt-account-banner{background-size:cover!important;background-position:center!important}
 @media(max-width:600px){.wt-account-hero-main .avatar-button{width:78px;height:78px;min-width:78px;min-height:78px;flex-basis:78px}}
+</style><style>
+.wt-public-panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;margin:16px 0}
+.wt-public-panel h3{margin:0 0 8px}.wt-public-panel .field input{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:12px;border-radius:12px}
+.wt-public-cover{height:150px;border-radius:15px 15px 0 0;background:linear-gradient(120deg,#503045,#23243d);background-size:cover;background-position:center}
+.wt-public-card{overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:16px;margin-top:14px}
+.wt-public-card-main{padding:16px}.wt-public-avatar{width:76px;height:76px;object-fit:cover;border-radius:50%;border:3px solid var(--panel);background:#343647;margin-top:-52px;position:relative}
+.wt-public-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.wt-public-badges span{border:1px solid var(--line);border-radius:12px;padding:8px;background:var(--panel2)}
 </style></head>
 <body><div class="app">
 <header class="top"><div class="brand"><div class="logo">▶</div><div><h1>Watch Time</h1><small>Your movie &amp; TV tracker</small></div></div><div class="top-actions"><button class="btn" id="installBtn" hidden>＋ Install app</button><button class="btn wt-top-account" id="settingsTop" aria-label="Account" title="Account"><img id="wtTopAvatar" src="icons/account-default.png" alt="" aria-hidden="true"></button></div></header>
@@ -267,16 +274,29 @@ body.details-open .app{padding-bottom:28px}
 <div class="detail-toolbar"><button class="detail-back" id="detailBack" type="button">← Back</button><div><strong id="detailPageHeading">Title details</strong><div class="hint">Your title, your progress</div></div></div>
 <div id="detailContent" class="detail-page-content"><div class="empty">Choose a title to view its details.</div></div>
 </section>
-<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.60</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
+<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.61</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
 </section>
+<section id="page-public-profile" class="hidden">
+<div class="row" style="justify-content:space-between;margin:10px 0 16px"><h2 style="margin:0">Public Profiles</h2><button class="btn small" data-goto="account">← Account</button></div>
+<div class="wt-public-panel">
+<h3>Find a Watch Time profile</h3><p class="hint">Search for a public username. Private profiles are not searchable.</p>
+<div class="searchbar"><input id="wtPublicSearch" placeholder="Username (e.g. movie_fan)" maxlength="24" autocomplete="off"><button class="btn primary" id="wtPublicFind">Search</button></div>
+<div id="wtPublicResult" aria-live="polite" class="status"></div>
+</div></section>
 <section id="page-account" class="hidden wt-account-page">
-<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.58</span></div>
+<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.61</span></div>
 <div class="wt-account-hero"><div id="wtAccountBanner" class="wt-account-banner" aria-label="Profile banner"></div><div class="wt-account-hero-main"><div id="avatarButton" class="avatar-button" aria-label="Profile avatar"><img id="accountAvatar" alt="" hidden><span id="avatarPlaceholder">👤</span></div><input id="avatarFile" type="file" accept="image/*" hidden><div class="wt-account-person"><span class="wt-account-eyebrow">YOUR IDENTITY</span><h3 id="accountDisplayName">Your profile</h3><p class="hint" id="accountSubtitle">Personal profile</p><span id="wtAccountStatusChip" class="wt-account-chip">Local mode</span></div></div><div class="wt-account-hero-actions"><button class="btn primary" id="createAccountBtn">Create account</button><div id="accountAuthActions" class="row" style="flex-wrap:wrap"><button class="btn" id="signInBtn">Sign in</button><button class="btn" id="signOutBtn" hidden>Sign out</button></div></div><p class="hint" id="accountPrivacyHint">Your account data stays yours.</p><div id="accountAuthStatus" class="status" role="status" aria-live="polite"></div></div>
 <div class="wt-account-overview"><div class="wt-account-summary"><span class="wt-account-icon">☁</span><div><strong>Cloud connection</strong><small id="wtAccountCloudLabel">Check your account status</small></div><span id="wtAccountCloudDot" class="wt-account-cloud-dot"></span></div><div class="wt-account-summary"><span class="wt-account-icon">▣</span><div><strong>My collection</strong><small id="wtAccountLibraryLabel">0 titles saved</small></div></div><div class="wt-account-summary"><span class="wt-account-icon">🏆</span><div><strong>Achievements</strong><small>Customize your viewing identity</small></div><button type="button" class="btn small" id="wtAccountOpenProfile">View</button></div></div>
 <div class="wt-account-section-title"><h3>Personal & Security</h3><span>Manage your identity</span></div>
 <div class="wt-account-menu"><button type="button" class="wt-account-tile" id="wtAccountEditProfile"><span class="wt-account-tile-icon">✎</span><span><strong>Personal information</strong><small>Edit your display name and profile photo</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="wtAccountPassword"><span class="wt-account-tile-icon">🔒</span><span><strong>Password & security</strong><small>Request a secure password reset email</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="wtAccountPrivacy"><span class="wt-account-tile-icon">◈</span><span><strong>Privacy preferences</strong><small>Manage profile visibility preferences</small></span><span class="wt-account-chevron">›</span></button></div>
 <div id="wtAccountPrivacyPanel" class="wt-account-privacy-panel hidden"><h3>Privacy preferences</h3><p class="hint">Public profiles are not available yet. Your profile remains private. You can save your preference for when this feature launches.</p><label class="wt-account-toggle"><span><strong>Allow a public profile in the future</strong><small>This setting does not publish your profile now.</small></span><input type="checkbox" id="wtAccountPublicOptIn"></label><label class="wt-account-toggle"><span><strong>Show achievements on a future public profile</strong><small>Only applies if you later enable a public profile.</small></span><input type="checkbox" id="wtAccountAchievementsOptIn"></label><div class="row" style="justify-content:flex-end;margin-top:12px"><button type="button" class="btn small" id="wtAccountClosePrivacy">Close</button><button type="button" class="btn primary small" id="wtAccountSavePrivacy">Save preferences</button></div></div>
-<div class="wt-account-section-title"><h3>Data & Support</h3><span>Everything in one place</span></div><div class="wt-account-menu"><button type="button" class="wt-account-tile" id="wtAccountSyncToggle"><span class="wt-account-tile-icon">↻</span><span><strong>Cloud sync diagnostics</strong><small>Check the connection without changing data</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="openSettingsPanel"><span class="wt-account-tile-icon">⚙</span><span><strong>Settings & data management</strong><small>Backup, restore and storage controls</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="wtAccountFeedback"><span class="wt-account-tile-icon">✉</span><span><strong>Feedback & support</strong><small>Send suggestions or report a problem</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="openAbout"><span class="wt-account-tile-icon">ⓘ</span><span><strong>About Watch Time</strong><small>Version, app information and privacy</small></span><span class="wt-account-chevron">›</span></button></div>
+<div class="wt-public-panel" id="wtPublicSettings">
+<h3>🌐 Public Profile</h3><p class="hint">Your profile is private until you publish it. Your email, watch history, notes and ratings are never included.</p>
+<div class="field"><label for="wtPublicUsername">Public username (3–24 letters, numbers or underscores)</label><input id="wtPublicUsername" maxlength="24" placeholder="your_username" autocomplete="off"></div>
+<label class="wt-account-toggle"><span><strong>Show my achievements</strong><small>Include your level and featured badges in the public profile</small></span><input type="checkbox" id="wtPublicBadges" checked></label>
+<div class="row" style="flex-wrap:wrap;margin-top:12px"><button class="btn primary small" id="wtPublishProfile">Publish / Update</button><button class="btn small" id="wtUnpublishProfile">Make private</button><button class="btn small" id="wtFindProfiles">Find profiles</button></div>
+<div id="wtPublicStatus" class="status" aria-live="polite"></div>
+</div><div class="wt-account-section-title"><h3>Data & Support</h3><span>Everything in one place</span></div><div class="wt-account-menu"><button type="button" class="wt-account-tile" id="wtAccountSyncToggle"><span class="wt-account-tile-icon">↻</span><span><strong>Cloud sync diagnostics</strong><small>Check the connection without changing data</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="openSettingsPanel"><span class="wt-account-tile-icon">⚙</span><span><strong>Settings & data management</strong><small>Backup, restore and storage controls</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="wtAccountFeedback"><span class="wt-account-tile-icon">✉</span><span><strong>Feedback & support</strong><small>Send suggestions or report a problem</small></span><span class="wt-account-chevron">›</span></button><button type="button" class="wt-account-tile" id="openAbout"><span class="wt-account-tile-icon">ⓘ</span><span><strong>About Watch Time</strong><small>Version, app information and privacy</small></span><span class="wt-account-chevron">›</span></button></div>
 <div id="syncDiagnosticsPanel" class="wt-account-sync-panel hidden"><div class="row" style="align-items:center;justify-content:space-between;gap:8px"><strong>Cloud sync diagnostics</strong><button type="button" class="btn small" id="checkCloudSyncBtn">Check connection</button></div><div class="hint" id="cloudSyncDiagnostics" role="status" aria-live="polite">Check your cloud connection without changing your data.</div></div>
 </section>
 <section id="page-settings" class="hidden">
@@ -1168,7 +1188,7 @@ $('#hideJourneyPicks')?.addEventListener('click',()=>$('#journeyPicks').classLis
 $$('[data-journey-type]').forEach(b=>b.addEventListener('click',()=>{$$('[data-journey-type]').forEach(x=>x.classList.toggle('active',x===b));loadJourneyPicks(b.dataset.journeyType)}));
 syncWelcomeVisibility();
 if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(()=>{});
-const WT_APP_VERSION='1.60';
+const WT_APP_VERSION='1.61';
 const WT_UPDATE_DISMISSED='wt_update_dismissed_target_v1';
 let wtAvailableVersion='';
 function wtVersionParts(version){
@@ -1222,4 +1242,92 @@ window.addEventListener('focus',checkWatchTimeUpdate);
 setTimeout(checkWatchTimeUpdate,4000);
 setInterval(checkWatchTimeUpdate,300000);
 renderLibrary();renderStats();applyLanguage();
-</script><div id="wtUpdateNotice" role="status" style="display:none;position:fixed;bottom:84px;left:16px;right:16px;max-width:480px;margin:auto;z-index:99999;padding:13px 16px;background:#222636;color:#fff;border:1px solid #f2764c;border-radius:14px;box-shadow:0 12px 35px #0008;font:14px system-ui"><strong>New Watch Time update available</strong><div style="margin-top:9px;display:flex;gap:10px"><button type="button" id="wtUpdateNow" style="background:#f2764c;border:0;border-radius:9px;padding:9px 14px;color:#111;font-weight:700">Update now</button><button type="button" id="wtUpdateLater" style="background:transparent;color:#fff;border:1px solid #777;border-radius:9px;padding:9px 14px">Later</button></div></div></body></html>
+</script><div id="wtUpdateNotice" role="status" style="display:none;position:fixed;bottom:84px;left:16px;right:16px;max-width:480px;margin:auto;z-index:99999;padding:13px 16px;background:#222636;color:#fff;border:1px solid #f2764c;border-radius:14px;box-shadow:0 12px 35px #0008;font:14px system-ui"><strong>New Watch Time update available</strong><div style="margin-top:9px;display:flex;gap:10px"><button type="button" id="wtUpdateNow" style="background:#f2764c;border:0;border-radius:9px;padding:9px 14px;color:#111;font-weight:700">Update now</button><button type="button" id="wtUpdateLater" style="background:transparent;color:#fff;border:1px solid #777;border-radius:9px;padding:9px 14px">Later</button></div></div><script>
+// v1.61 Public profiles: explicit opt-in, independent table and RLS.
+// This intentionally never uploads the library, email, ratings, notes or auth tokens.
+const WT_PUBLIC_TABLE='watch_time_public_profiles';
+const WT_PUBLIC_USERNAME=/^[a-z0-9_]{3,24}$/;
+function wtPublicProfileLocal(){try{return JSON.parse(localStorage.getItem(PROFILE_KEY)||'{}')}catch(e){return {}}}
+function wtPublicStatus(message,error=false){const e=document.getElementById('wtPublicStatus');if(e){e.textContent=message;e.className='status '+(error?'err':'ok')}}
+async function wtPublicRequest(method,query='',payload=null){
+ const config=getAuthConfig();let session=getAuthSession();
+ const headers={'apikey':config.key,'Accept':'application/json','Content-Type':'application/json'};
+ if(session?.access_token){
+  session=await ensureFreshSession();
+  headers.Authorization='Bearer '+session.access_token;
+ }else headers.Authorization='Bearer '+config.key;
+ if(method==='POST')headers.Prefer='resolution=merge-duplicates,return=representation';
+ const url=config.url.replace(/\/+$/,'')+'/rest/v1/'+WT_PUBLIC_TABLE+query;
+ let res=await fetch(url,{method,headers,body:payload?JSON.stringify(payload):undefined,cache:'no-store'});
+ let data=null;try{data=await res.json()}catch(e){}
+ if(!res.ok)throw new Error(data?.message||data?.details||('Public profile request failed ('+res.status+'). Check that the SQL migration is installed.'));
+ return data;
+}
+function wtPublicSafeImage(value){return typeof value==='string'&&/^data:image\/(png|jpeg|webp);base64,/i.test(value)&&value.length<350000?value:null}
+function wtPublicSafeUsername(raw){return String(raw||'').trim().toLowerCase()}
+async function wtPublishProfile(){
+ const session=getAuthSession();
+ if(!session?.user?.id){wtPublicStatus('Please sign in first.',true);return}
+ const username=wtPublicSafeUsername(document.getElementById('wtPublicUsername').value);
+ if(!WT_PUBLIC_USERNAME.test(username)){wtPublicStatus('Username must be 3–24 lowercase letters, numbers or underscores.',true);return}
+ const p=wtPublicProfileLocal();
+ const showBadges=document.getElementById('wtPublicBadges').checked;
+ const name=String(p.name||username).slice(0,60);
+ const badgeNames=["First Premiere", "Episode One", "Double Feature", "Binge Starter", "Series Fan", "Time Traveler", "One Full Day", "Collector", "Anime Explorer", "Critic in the Making", "Episode Critic", "Dedicated Reviewer", "Movie Marathon", "Episode Veteran", "Watch Legend", "Cinema Archivist", "Series Historian", "Master Critic", "Anime Veteran", "Lifetime Collector"];
+ const badges=Array.isArray(p.showcaseAchievements)?p.showcaseAchievements.slice(0,3).map(id=>badgeNames[Number(String(id).replace('badge-',''))]).filter(Boolean):[];
+ const payload={user_id:session.user.id,username,display_name:name,avatar_url:wtPublicSafeImage(localStorage.getItem(AVATAR_KEY)),banner_url:wtPublicSafeImage(p.bannerImage),show_achievements:showBadges,badges:showBadges?badges:[],is_public:true};
+ const btn=document.getElementById('wtPublishProfile');btn.disabled=true;
+ try{
+  await wtPublicRequest('POST','?on_conflict=user_id',payload);
+  wtPublicStatus('Published! Share this username: '+username);
+ }catch(e){wtPublicStatus(e.message,true)}finally{btn.disabled=false}
+}
+async function wtUnpublishProfile(){
+ const s=getAuthSession();if(!s?.user?.id){wtPublicStatus('Please sign in first.',true);return}
+ try{
+  await wtPublicRequest('PATCH','?user_id=eq.'+encodeURIComponent(s.user.id),{is_public:false});
+  wtPublicStatus('Your public profile is now private.');
+ }catch(e){wtPublicStatus(e.message,true)}
+}
+function wtPublicNode(tag,text,cls){
+ const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;
+}
+async function wtFindPublicProfile(){
+ const username=wtPublicSafeUsername(document.getElementById('wtPublicSearch').value);
+ const target=document.getElementById('wtPublicResult');target.replaceChildren();
+ if(!WT_PUBLIC_USERNAME.test(username)){target.textContent='Enter a valid username.';return}
+ target.textContent='Searching…';
+ try{
+  const rows=await wtPublicRequest('GET','?select=username,display_name,avatar_url,banner_url,show_achievements,badges&username=eq.'+encodeURIComponent(username)+'&is_public=eq.true&limit=1');
+  target.replaceChildren();
+  if(!rows?.length){target.textContent='No public profile found.';return}
+  const p=rows[0],card=wtPublicNode('div',undefined,'wt-public-card');
+  const cover=wtPublicNode('div',undefined,'wt-public-cover');
+  if(wtPublicSafeImage(p.banner_url))cover.style.backgroundImage='url("'+p.banner_url+'")';
+  card.append(cover);
+  const body=wtPublicNode('div',undefined,'wt-public-card-main');
+  const avatar=wtPublicNode('img',undefined,'wt-public-avatar');
+  avatar.alt='Profile avatar';avatar.src=wtPublicSafeImage(p.avatar_url)||'icons/account-default.png';
+  body.append(avatar,wtPublicNode('h3',p.display_name||p.username),wtPublicNode('p','@'+p.username,'hint'));
+  if(p.show_achievements&&Array.isArray(p.badges)){
+   const row=wtPublicNode('div',undefined,'wt-public-badges');
+   p.badges.slice(0,3).forEach(b=>row.append(wtPublicNode('span',String(b).slice(0,60))));
+   body.append(row);
+  }
+  card.append(body);target.append(card);
+ }catch(e){target.textContent=e.message}
+}
+document.getElementById('wtPublishProfile')?.addEventListener('click',wtPublishProfile);
+document.getElementById('wtUnpublishProfile')?.addEventListener('click',wtUnpublishProfile);
+document.getElementById('wtFindProfiles')?.addEventListener('click',()=>go('public-profile'));
+document.getElementById('wtPublicFind')?.addEventListener('click',wtFindPublicProfile);
+document.getElementById('wtPublicSearch')?.addEventListener('keydown',e=>{if(e.key==='Enter')wtFindPublicProfile()});
+document.getElementById('wtPublicUsername')?.addEventListener('focus',async()=>{
+ const field=document.getElementById('wtPublicUsername');
+ if(field.value||!getAuthSession()?.user?.id)return;
+ try{
+  const rows=await wtPublicRequest('GET','?select=username,show_achievements&user_id=eq.'+encodeURIComponent(getAuthSession().user.id)+'&limit=1');
+  if(rows?.[0]){field.value=rows[0].username;document.getElementById('wtPublicBadges').checked=!!rows[0].show_achievements}
+ }catch(e){}
+});
+</script></body></html>
