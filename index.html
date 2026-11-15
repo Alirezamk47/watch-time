@@ -179,6 +179,17 @@ body.details-open .app{padding-bottom:28px}
 .wt-public-card{overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:16px;margin-top:14px}
 .wt-public-card-main{padding:16px}.wt-public-avatar{width:76px;height:76px;object-fit:cover;border-radius:50%;border:3px solid var(--panel);background:#343647;margin-top:-52px;position:relative}
 .wt-public-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.wt-public-badges span{border:1px solid var(--line);border-radius:12px;padding:8px;background:var(--panel2)}
+</style><style>
+.wt-public-full{border:1px solid #4a4056;border-radius:22px;overflow:hidden;background:var(--panel);box-shadow:0 14px 40px #0003}
+.wt-public-full-cover{height:clamp(170px,31vw,310px);background:linear-gradient(115deg,#52314e,#20253e);background-size:cover;background-position:center}
+.wt-public-full-body{padding:0 22px 25px}.wt-public-full-avatar{display:block;width:110px;height:110px;aspect-ratio:1;object-fit:cover;border-radius:50%;border:5px solid var(--panel);margin-top:-55px;background:#313543;position:relative}
+.wt-public-full h2{font-size:27px;margin:12px 0 4px;overflow-wrap:anywhere}.wt-public-handle{color:#aeb2c3;margin:0 0 14px}
+.wt-public-tag{display:inline-block;border:1px solid #bd885b70;background:#ff985219;color:#ffbd89;border-radius:999px;padding:7px 12px;font-size:12px;margin:0 7px 7px 0}
+.wt-public-milestones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}.wt-public-milestones>div{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:14px}
+.wt-public-milestones strong{display:block;font-size:20px;margin-top:5px}.wt-public-milestones small{color:var(--muted)}
+.wt-public-full-badges{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.wt-public-full-badges>div{background:var(--panel2);border:1px solid #6a5065;border-radius:13px;padding:14px 7px;text-align:center;overflow-wrap:anywhere}
+.wt-public-full-badges b{display:block;font-size:23px;margin-bottom:7px}.wt-public-full-badges span{font-size:11px}
+@media(max-width:480px){.wt-public-full-body{padding:0 13px 18px}.wt-public-full-avatar{width:88px;height:88px;margin-top:-44px}.wt-public-full h2{font-size:22px}}
 </style></head>
 <body><div class="app">
 <header class="top"><div class="brand"><div class="logo">▶</div><div><h1>Watch Time</h1><small>Your movie &amp; TV tracker</small></div></div><div class="top-actions"><button class="btn" id="installBtn" hidden>＋ Install app</button><button class="btn wt-top-account" id="settingsTop" aria-label="Account" title="Account"><img id="wtTopAvatar" src="icons/account-default.png" alt="" aria-hidden="true"></button></div></header>
@@ -275,7 +286,13 @@ body.details-open .app{padding-bottom:28px}
 <div class="detail-toolbar"><button class="detail-back" id="detailBack" type="button">← Back</button><div><strong id="detailPageHeading">Title details</strong><div class="hint">Your title, your progress</div></div></div>
 <div id="detailContent" class="detail-page-content"><div class="empty">Choose a title to view its details.</div></div>
 </section>
-<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.62</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
+<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.63</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
+</section>
+<section id="page-public-view" class="hidden">
+<div class="row" style="justify-content:space-between;gap:10px;margin:10px 0 16px">
+<button class="btn small" id="wtPublicBack">← Community</button><button class="btn small" id="wtPublicShare">↗ Share profile</button></div>
+<div id="wtPublicViewStatus" class="status" aria-live="polite"></div>
+<div id="wtPublicViewCard"></div>
 </section>
 <section id="page-community" class="hidden">
 <div class="hero" style="background:linear-gradient(120deg,#30213e,#181b2d 75%);border-color:#67416d"><span class="upcoming-pill">WATCH TIME SOCIAL</span><h2>🌐 Community</h2><p>Discover other watchers, share your public profile and show off your achievements. You decide what others can see.</p></div>
@@ -285,10 +302,10 @@ body.details-open .app{padding-bottom:28px}
 <div class="field"><label for="wtPublicUsername">Public username (3–24 letters, numbers or underscores)</label><input id="wtPublicUsername" maxlength="24" placeholder="your_username" autocomplete="off"></div>
 <div class="hint" id="wtPublicIdentityStatus" aria-live="polite">Sign in to manage your public profile.</div><label class="wt-account-toggle"><span><strong>Show my achievements</strong><small>Include your level and featured badges in the public profile</small></span><input type="checkbox" id="wtPublicBadges" checked></label>
 <div class="row" style="flex-wrap:wrap;margin-top:12px"><button class="btn primary small" id="wtPublishProfile">Publish / Update</button><button class="btn small" id="wtUnpublishProfile">Make private</button><button class="btn small" id="wtFindProfiles">Find profiles</button></div>
-<div id="wtPublicStatus" class="status" aria-live="polite"></div>
+<div id="wtPublicStatus" class="status" aria-live="polite"></div><div class="row" style="flex-wrap:wrap;margin-top:10px"><button class="btn small" id="wtPublicMyPage">View my public page</button><button class="btn small" id="wtPublicCopyLink">Copy my profile link</button></div>
 </div><div class="wt-public-panel"><h3>Coming to Community</h3><p class="hint">Public activity, comments, likes and more ways to connect will be introduced gradually, with privacy controls.</p></div></section>
 <section id="page-account" class="hidden wt-account-page">
-<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.62</span></div>
+<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.63</span></div>
 <div class="wt-account-hero"><div id="wtAccountBanner" class="wt-account-banner" aria-label="Profile banner"></div><div class="wt-account-hero-main"><div id="avatarButton" class="avatar-button" aria-label="Profile avatar"><img id="accountAvatar" alt="" hidden><span id="avatarPlaceholder">👤</span></div><input id="avatarFile" type="file" accept="image/*" hidden><div class="wt-account-person"><span class="wt-account-eyebrow">YOUR IDENTITY</span><h3 id="accountDisplayName">Your profile</h3><p class="hint" id="accountSubtitle">Personal profile</p><span id="wtAccountStatusChip" class="wt-account-chip">Local mode</span></div></div><div class="wt-account-hero-actions"><button class="btn primary" id="createAccountBtn">Create account</button><div id="accountAuthActions" class="row" style="flex-wrap:wrap"><button class="btn" id="signInBtn">Sign in</button><button class="btn" id="signOutBtn" hidden>Sign out</button></div></div><p class="hint" id="accountPrivacyHint">Your account data stays yours.</p><div id="accountAuthStatus" class="status" role="status" aria-live="polite"></div></div>
 <div class="wt-account-overview"><div class="wt-account-summary"><span class="wt-account-icon">☁</span><div><strong>Cloud connection</strong><small id="wtAccountCloudLabel">Check your account status</small></div><span id="wtAccountCloudDot" class="wt-account-cloud-dot"></span></div><div class="wt-account-summary"><span class="wt-account-icon">▣</span><div><strong>My collection</strong><small id="wtAccountLibraryLabel">0 titles saved</small></div></div><div class="wt-account-summary"><span class="wt-account-icon">🏆</span><div><strong>Achievements</strong><small>Customize your viewing identity</small></div><button type="button" class="btn small" id="wtAccountOpenProfile">View</button></div></div>
 <div class="wt-account-section-title"><h3>Personal & Security</h3><span>Manage your identity</span></div>
@@ -1186,7 +1203,7 @@ $('#hideJourneyPicks')?.addEventListener('click',()=>$('#journeyPicks').classLis
 $$('[data-journey-type]').forEach(b=>b.addEventListener('click',()=>{$$('[data-journey-type]').forEach(x=>x.classList.toggle('active',x===b));loadJourneyPicks(b.dataset.journeyType)}));
 syncWelcomeVisibility();
 if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(()=>{});
-const WT_APP_VERSION='1.62';
+const WT_APP_VERSION='1.63';
 const WT_UPDATE_DISMISSED='wt_update_dismissed_target_v1';
 let wtAvailableVersion='';
 function wtVersionParts(version){
@@ -1273,7 +1290,18 @@ async function wtPublishProfile(){
  const name=String(p.name||username).slice(0,60);
  const badgeNames=["First Premiere", "Episode One", "Double Feature", "Binge Starter", "Series Fan", "Time Traveler", "One Full Day", "Collector", "Anime Explorer", "Critic in the Making", "Episode Critic", "Dedicated Reviewer", "Movie Marathon", "Episode Veteran", "Watch Legend", "Cinema Archivist", "Series Historian", "Master Critic", "Anime Veteran", "Lifetime Collector"];
  const badges=Array.isArray(p.showcaseAchievements)?p.showcaseAchievements.slice(0,3).map(id=>badgeNames[Number(String(id).replace('badge-',''))]).filter(Boolean):[];
- const payload={user_id:session.user.id,username,display_name:name,avatar_url:wtPublicSafeImage(localStorage.getItem(AVATAR_KEY)),banner_url:wtPublicSafeImage(p.bannerImage),show_achievements:showBadges,badges:showBadges?badges:[],is_public:true};
+ // Publish only selected public achievements, never raw library or private ratings.
+ const watchedMovies=library.filter(x=>x.type==='movie'&&x.status!=='watchlist'&&x.watched).length;
+ const watchedEps=library.filter(x=>x.type==='tv'&&x.status!=='watchlist').reduce((n,x)=>n+Object.values(x.watchedEpisodes||{}).filter(Boolean).length,0);
+ const ratedTitles=library.filter(x=>x.status!=='watchlist'&&Number(x.personalRating)>0).length;
+ const episodeRatings=library.filter(x=>x.status!=='watchlist').reduce((n,x)=>n+Object.values(x.episodeRatings||{}).filter(v=>Number(v)>=1&&Number(v)<=10).length,0);
+ const xp=watchedMovies*12+watchedEps*2+Math.min(episodeRatings,watchedEps)+ratedTitles*3;
+ const level=Math.floor(Math.sqrt(xp/750))+1;
+ const titleLabels={'newcomer':'Newcomer','movie-fan':'Movie Fan','series-fan':'Series Fan','anime-explorer':'Anime Explorer','critic':'Episode Critic','expert':'Watch Time Expert'};
+ const displayTitle=titleLabels[p.displayTitle]||'Newcomer';
+ const featuredIndex=Number(String(p.featuredAchievement||'').replace('badge-',''));
+ const featuredBadge=Number.isInteger(featuredIndex)&&featuredIndex>=0?badgeNames[featuredIndex]||null:null;
+ const payload={user_id:session.user.id,username,display_name:name,avatar_url:wtPublicSafeImage(localStorage.getItem(AVATAR_KEY)),banner_url:wtPublicSafeImage(p.bannerImage),show_achievements:showBadges,badges:showBadges?badges:[],public_level:showBadges?level:null,public_xp:showBadges?xp:null,display_title:displayTitle,featured_badge:showBadges?featuredBadge:null,is_public:true};
  const btn=document.getElementById('wtPublishProfile');btn.disabled=true;
  try{
   await wtPublicRequest('POST','?on_conflict=user_id',payload);
@@ -1300,7 +1328,7 @@ async function wtFindPublicProfile(){
  if(!WT_PUBLIC_USERNAME.test(username)){target.textContent='Enter a valid username.';return}
  target.textContent='Searching…';
  try{
-  const rows=await wtPublicRequest('GET','?select=username,display_name,avatar_url,banner_url,show_achievements,badges&username=eq.'+encodeURIComponent(username)+'&is_public=eq.true&limit=1');
+  const rows=await wtPublicRequest('GET','?select=username,display_name,avatar_url,banner_url,show_achievements,badges,public_level,public_xp,display_title,featured_badge&username=eq.'+encodeURIComponent(username)+'&is_public=eq.true&limit=1');
   target.replaceChildren();
   if(!rows?.length){target.textContent='No public profile found.';return}
   const p=rows[0],card=wtPublicNode('div',undefined,'wt-public-card');
@@ -1316,7 +1344,9 @@ async function wtFindPublicProfile(){
    p.badges.slice(0,3).forEach(b=>row.append(wtPublicNode('span',String(b).slice(0,60))));
    body.append(row);
   }
-  card.append(body);target.append(card);
+  const viewButton=wtPublicNode('button','View full profile','btn primary small');
+  viewButton.type='button';viewButton.addEventListener('click',()=>wtOpenPublicProfile(p.username,true));
+  body.append(viewButton);card.append(body);target.append(card);
  }catch(e){target.textContent=e.message}
 }
 document.getElementById('wtPublishProfile')?.addEventListener('click',wtPublishProfile);
@@ -1366,5 +1396,105 @@ document.getElementById('wtPublicUsername')?.addEventListener('focus',()=>{
  if(!document.getElementById('wtPublicUsername').value)wtLoadMyPublicProfile();
 });
 // Load automatically when a signed-in user opens Community, not only when focusing the input.
+
+// v1.63: shareable, read-only public profile page.
+let wtPublicViewingUsername='';
+function wtPublicProfileUrl(username){
+ const url=new URL(window.location.href);
+ url.searchParams.delete('wt_update');
+ url.searchParams.set('profile',username);
+ url.hash='';
+ return url.toString();
+}
+function wtPublicMessage(message){const node=document.getElementById('wtPublicViewStatus');if(node)node.textContent=message}
+function wtPublicRenderFull(profile){
+ const host=document.getElementById('wtPublicViewCard');host.replaceChildren();
+ const card=wtPublicNode('article',undefined,'wt-public-full');
+ const cover=wtPublicNode('div',undefined,'wt-public-full-cover');
+ const banner=wtPublicSafeImage(profile.banner_url);
+ if(banner)cover.style.backgroundImage='url("'+banner+'")';
+ card.append(cover);
+ const body=wtPublicNode('div',undefined,'wt-public-full-body');
+ const avatar=wtPublicNode('img',undefined,'wt-public-full-avatar');
+ avatar.alt='Public avatar';avatar.src=wtPublicSafeImage(profile.avatar_url)||'icons/account-default.png';
+ body.append(avatar,wtPublicNode('h2',String(profile.display_name||profile.username).slice(0,60)),
+   wtPublicNode('p','@'+profile.username,'wt-public-handle'));
+ if(profile.display_title)body.append(wtPublicNode('span',String(profile.display_title).slice(0,40),'wt-public-tag'));
+ if(profile.show_achievements){
+  const metrics=wtPublicNode('div',undefined,'wt-public-milestones');
+  if(Number.isInteger(profile.public_level)&&profile.public_level>=1){
+   const tile=wtPublicNode('div');tile.append(wtPublicNode('small','WATCH TIME LEVEL'),wtPublicNode('strong','Level '+profile.public_level));metrics.append(tile);
+  }
+  if(Number.isInteger(profile.public_xp)&&profile.public_xp>=0){
+   const tile=wtPublicNode('div');tile.append(wtPublicNode('small','EXPERIENCE'),wtPublicNode('strong',profile.public_xp.toLocaleString('en-US')+' XP'));metrics.append(tile);
+  }
+  if(metrics.childElementCount)body.append(metrics);
+  if(profile.featured_badge)body.append(wtPublicNode('div','🏆 Featured · '+String(profile.featured_badge).slice(0,60),'wt-public-tag'));
+  if(Array.isArray(profile.badges)&&profile.badges.length){
+   body.append(wtPublicNode('h3','Badge Showcase'));
+   const grid=wtPublicNode('div',undefined,'wt-public-full-badges');
+   profile.badges.slice(0,3).forEach(name=>{
+    const badge=wtPublicNode('div');
+    badge.append(wtPublicNode('b','🏅'),wtPublicNode('span',String(name).slice(0,60)));
+    grid.append(badge);
+   });
+   body.append(grid);
+  }
+ }
+ body.append(wtPublicNode('p','Only information the user chose to publish appears here.','hint'));
+ card.append(body);host.append(card);
+}
+async function wtOpenPublicProfile(rawUsername,pushHistory=true){
+ const username=wtPublicSafeUsername(rawUsername);
+ if(!WT_PUBLIC_USERNAME.test(username)){
+  if(new URL(location.href).searchParams.has('profile'))history.replaceState({},'',location.pathname);
+  return;
+ }
+ wtPublicViewingUsername=username;
+ if(pushHistory)history.pushState({publicProfile:username},'',wtPublicProfileUrl(username));
+ go('public-view');
+ wtPublicMessage('Loading public profile…');
+ document.getElementById('wtPublicViewCard').replaceChildren();
+ try{
+  const rows=await wtPublicRequest('GET','?select=username,display_name,avatar_url,banner_url,show_achievements,badges,public_level,public_xp,display_title,featured_badge&username=eq.'+encodeURIComponent(username)+'&is_public=eq.true&limit=1');
+  if(wtPublicViewingUsername!==username)return;
+  if(!rows?.length){wtPublicMessage('This profile is private or does not exist.');return}
+  wtPublicMessage('');
+  wtPublicRenderFull(rows[0]);
+ }catch(e){wtPublicMessage('Unable to load profile: '+e.message)}
+}
+async function wtSharePublicLink(){
+ const username=wtPublicViewingUsername||wtPublicSafeUsername(document.getElementById('wtPublicUsername')?.value);
+ if(!WT_PUBLIC_USERNAME.test(username)){wtPublicStatus('Publish a username first.',true);return}
+ const url=wtPublicProfileUrl(username);
+ try{
+  if(navigator.share)await navigator.share({title:'Watch Time profile',url});
+  else if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(url);wtPublicStatus('Profile link copied.')}
+  else{window.prompt('Copy this profile link:',url)}
+ }catch(e){if(e.name!=='AbortError')window.prompt('Copy this profile link:',url)}
+}
+document.getElementById('wtPublicBack')?.addEventListener('click',()=>{
+ history.pushState({},'',location.pathname+location.search.replace(/([?&])profile=[^&]*&?/,'$1').replace(/[?&]$/,''));
+ go('community');
+});
+document.getElementById('wtPublicShare')?.addEventListener('click',wtSharePublicLink);
+document.getElementById('wtPublicCopyLink')?.addEventListener('click',()=>{
+ wtPublicViewingUsername='';wtSharePublicLink();
+});
+document.getElementById('wtPublicMyPage')?.addEventListener('click',()=>{
+ const uid=getAuthSession()?.user?.id;
+ let cached=null;
+ try{cached=JSON.parse(localStorage.getItem(wtPublicIdentityKey(uid))||'null')}catch(e){}
+ const username=cached?.username||document.getElementById('wtPublicUsername').value;
+ if(!cached?.is_public){wtPublicStatus('Publish your profile first to view its public page.',true);return}
+ wtOpenPublicProfile(username,true);
+});
+window.addEventListener('popstate',()=>{
+ const username=new URL(location.href).searchParams.get('profile');
+ if(username)wtOpenPublicProfile(username,false);
+ else if(activePage==='public-view'){wtPublicViewingUsername='';go('community')}
+});
+const wtInitialPublicUsername=new URL(location.href).searchParams.get('profile');
+if(wtInitialPublicUsername)wtOpenPublicProfile(wtInitialPublicUsername,false);
 
 </script></body></html>
