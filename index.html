@@ -201,7 +201,7 @@ body.details-open .app{padding-bottom:28px}
 .wt-explore-content{padding:0 12px 13px}.wt-explore-avatar{display:block;width:54px;height:54px;aspect-ratio:1;object-fit:cover;border:3px solid var(--panel2);border-radius:50%;margin-top:-26px;position:relative;background:#303444}
 .wt-explore-content strong{display:block;overflow-wrap:anywhere;font-size:14px;margin:8px 0 3px}.wt-explore-content small{display:block;color:#b5b6c6;overflow-wrap:anywhere}.wt-explore-title{font-size:11px;color:#ffb888;margin-top:7px}
 @media(max-width:440px){.wt-community-actions{gap:7px}.wt-community-action{padding:13px 5px}.wt-community-action strong{font-size:11px}.wt-community-action small{font-size:10px}}
-</style><style>.wt-community-action.wt-community-selected{border-color:#ff8a4d;background:linear-gradient(145deg,#352739,#232337)}.wt-community-detail.hidden{display:none!important}</style></head>
+</style><style>.wt-community-action.wt-community-selected{border-color:#ff8a4d;background:linear-gradient(145deg,#352739,#232337)}.wt-community-detail.hidden{display:none!important}</style><style>.wt-follow-area{margin:14px 0 16px}.wt-follow-counts{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.wt-follow-count{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:10px 13px;border-radius:12px;cursor:pointer}.wt-follow-active{background:#283e37!important;color:#8be4b3!important;border:1px solid #488969!important}.wt-follow-list{display:flex;flex-wrap:wrap;gap:8px;padding:12px;border:1px solid var(--line);border-radius:12px;margin-top:12px}.wt-follow-list strong{width:100%}</style></head>
 <body><div class="app">
 <header class="top"><div class="brand"><div class="logo">▶</div><div><h1>Watch Time</h1><small>Your movie &amp; TV tracker</small></div></div><div class="top-actions"><button class="btn" id="installBtn" hidden>＋ Install app</button><button class="btn wt-top-account" id="settingsTop" aria-label="Account" title="Account"><img id="wtTopAvatar" src="icons/account-default.png" alt="" aria-hidden="true"></button></div></header>
 <nav class="tabs desktop-tabs"><button class="tab active" data-page="home">Home</button><button class="tab" data-page="search">Search</button><button class="tab" data-page="calendar">📅 Calendar</button><button class="tab" data-page="recommendations">For You</button><button class="tab" data-page="library">Library</button><button class="tab" data-page="watchlist">Watchlist</button><button class="tab" data-page="anime">Anime</button><button class="tab" data-page="profile">Profile &amp; Achievements</button></nav>
@@ -297,7 +297,7 @@ body.details-open .app{padding-bottom:28px}
 <div class="detail-toolbar"><button class="detail-back" id="detailBack" type="button">← Back</button><div><strong id="detailPageHeading">Title details</strong><div class="hint">Your title, your progress</div></div></div>
 <div id="detailContent" class="detail-page-content"><div class="empty">Choose a title to view its details.</div></div>
 </section>
-<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.65</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
+<section id="page-about" class="hidden"><div class="section-head"><h3>About Watch Time</h3><button class="btn small" id="aboutBack">← Back to Account</button></div><div class="hero"><h2>Watch Time</h2><p>Your personal movie, TV series, and anime tracker. Organize your library and watchlist, track watched episodes and total watch time, follow upcoming episode releases in a calendar, discover popular titles, explore personalized recommendations, and review your statistics and achievements.</p><p><strong>Version 1.66</strong></p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>What’s new</h3><ul><li>Added account-based cloud storage for library titles, watched episodes and dates, personal ratings, favorites, notes, profile, and avatar.</li><li>Preconfigured the Watch Time Supabase project so users no longer need to enter connection settings manually.</li><li>Account data is synchronized automatically across signed-in devices.</li><li>Added real email sign-up, sign-in, password reset, and sign-out through a user-configured Supabase project.</li><li>Reorganized Settings into an Account area with a changeable local avatar and a local profile setup flow.</li><li>Removed the user-managed TMDB token; TMDB requests now use the secure server connection.</li><li>Added automatic account sync and a Feedback form.</li><li>Added Advanced Insights: a 91-day activity heatmap, current and best viewing streaks, average watch time per active day, most active day, weekday patterns, and month-over-month comparison.</li><li>Advanced statistics use only local dated watch history and remain private on this device.</li><li>Removed Calendar from the bottom navigation and highlighted it in Home Quick Access.</li><li>Added personal notes for each movie and TV show, saved locally with your library.</li><li>Kept the existing 1–10 personal rating and Favorites controls.</li><li>Expanded the Release Calendar to list multiple announced future episodes across available seasons.</li><li>Added Release Calendar to Home Quick Access.</li><li>Opening a movie or show no longer adds it to your Library automatically.</li><li>Added a dedicated About page with app information, version, and latest changes.</li><li>Expanded the Home welcome section and added “Let’s start your journey” to browse popular movies and TV shows.</li><li>The welcome section and popular picks can be hidden to save space.</li></ul></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Privacy &amp; data</h3><p class="hint">Your library and preferences are stored on this device and, when signed in, automatically synchronized with your Watch Time account. Changes are queued while offline and sent when the connection returns. TMDB provides title metadata; Watch Time is not endorsed or certified by TMDB.</p><p class="hint">This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><div class="panel" style="padding:16px;margin:14px 0"><h3>Feedback</h3><p class="hint">Have an idea, found a problem, or want to share your thoughts? Send a message to the Watch Time team.</p><form id="feedbackForm"><label for="feedbackCategory">Feedback type</label><select id="feedbackCategory" class="btn" style="width:100%;margin:6px 0 12px"><option value="suggestion">Suggestion / Feature request</option><option value="bug">Report a problem</option><option value="general">General feedback</option></select><label for="feedbackEmail">Email (optional)</label><input id="feedbackEmail" type="email" maxlength="254" placeholder="you@example.com" style="width:100%;margin:6px 0 12px"><label for="feedbackMessage">Your message</label><textarea id="feedbackMessage" required minlength="5" maxlength="5000" rows="5" placeholder="Write your feedback here…" style="width:100%;margin:6px 0 12px"></textarea><div id="feedbackStatus" class="status" role="status" aria-live="polite"></div><button class="btn primary" id="sendFeedbackBtn" type="submit">Send feedback</button></form></div>
 </section>
 <section id="page-public-view" class="hidden">
 <div class="row" style="justify-content:space-between;gap:10px;margin:10px 0 16px">
@@ -322,7 +322,7 @@ body.details-open .app{padding-bottom:28px}
 <div id="wtPublicStatus" class="status" aria-live="polite"></div><div class="row" style="flex-wrap:wrap;margin-top:10px"><button class="btn small" id="wtPublicMyPage">View my public page</button><button class="btn small" id="wtPublicCopyLink">Copy my profile link</button></div>
 </div></section>
 <section id="page-account" class="hidden wt-account-page">
-<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.65</span></div>
+<div class="wt-account-heading"><div><span class="wt-account-eyebrow">WATCH TIME · ACCOUNT CENTER</span><h2>My Account</h2><p class="hint">Your identity, privacy and data — all in one place.</p></div><span class="wt-account-version">v1.66</span></div>
 <div class="wt-account-hero"><div id="wtAccountBanner" class="wt-account-banner" aria-label="Profile banner"></div><div class="wt-account-hero-main"><div id="avatarButton" class="avatar-button" aria-label="Profile avatar"><img id="accountAvatar" alt="" hidden><span id="avatarPlaceholder">👤</span></div><input id="avatarFile" type="file" accept="image/*" hidden><div class="wt-account-person"><span class="wt-account-eyebrow">YOUR IDENTITY</span><h3 id="accountDisplayName">Your profile</h3><p class="hint" id="accountSubtitle">Personal profile</p><span id="wtAccountStatusChip" class="wt-account-chip">Local mode</span></div></div><div class="wt-account-hero-actions"><button class="btn primary" id="createAccountBtn">Create account</button><div id="accountAuthActions" class="row" style="flex-wrap:wrap"><button class="btn" id="signInBtn">Sign in</button><button class="btn" id="signOutBtn" hidden>Sign out</button></div></div><p class="hint" id="accountPrivacyHint">Your account data stays yours.</p><div id="accountAuthStatus" class="status" role="status" aria-live="polite"></div></div>
 <div class="wt-account-overview"><div class="wt-account-summary"><span class="wt-account-icon">☁</span><div><strong>Cloud connection</strong><small id="wtAccountCloudLabel">Check your account status</small></div><span id="wtAccountCloudDot" class="wt-account-cloud-dot"></span></div><div class="wt-account-summary"><span class="wt-account-icon">▣</span><div><strong>My collection</strong><small id="wtAccountLibraryLabel">0 titles saved</small></div></div><div class="wt-account-summary"><span class="wt-account-icon">🏆</span><div><strong>Achievements</strong><small>Customize your viewing identity</small></div><button type="button" class="btn small" id="wtAccountOpenProfile">View</button></div></div>
 <div class="wt-account-section-title"><h3>Personal & Security</h3><span>Manage your identity</span></div>
@@ -1220,7 +1220,7 @@ $('#hideJourneyPicks')?.addEventListener('click',()=>$('#journeyPicks').classLis
 $$('[data-journey-type]').forEach(b=>b.addEventListener('click',()=>{$$('[data-journey-type]').forEach(x=>x.classList.toggle('active',x===b));loadJourneyPicks(b.dataset.journeyType)}));
 syncWelcomeVisibility();
 if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(()=>{});
-const WT_APP_VERSION='1.65';
+const WT_APP_VERSION='1.66';
 const WT_UPDATE_DISMISSED='wt_update_dismissed_target_v1';
 let wtAvailableVersion='';
 function wtVersionParts(version){
@@ -1438,6 +1438,11 @@ function wtPublicRenderFull(profile){
  body.append(avatar,wtPublicNode('h2',String(profile.display_name||profile.username).slice(0,60)),
    wtPublicNode('p','@'+profile.username,'wt-public-handle'));
  if(profile.display_title)body.append(wtPublicNode('span',String(profile.display_title).slice(0,40),'wt-public-tag'));
+ const followArea=wtPublicNode('div',undefined,'wt-follow-area');
+ followArea.id='wtFollowArea';
+ body.append(followArea);
+ wtFollowRender(profile.username,followArea);
+
  if(profile.show_achievements){
   const metrics=wtPublicNode('div',undefined,'wt-public-milestones');
   if(Number.isInteger(profile.public_level)&&profile.public_level>=1){
@@ -1565,4 +1570,91 @@ document.getElementById('wtExploreMore')?.addEventListener('click',()=>wtExplore
 // Load only when Community is opened; avoid background queries on every page.
 const wtOldCommunityGo=go;
 go=function(page){wtOldCommunityGo(page);if(page==='community'){document.querySelectorAll('.wt-community-detail').forEach(p=>p.classList.add('hidden'));document.querySelectorAll('.wt-community-action').forEach(b=>b.classList.remove('wt-community-selected'));}};
+</script><script>
+// v1.66: Follow relationships are stored separately from personal library and profile data.
+const WT_FOLLOW_TABLE='watch_time_follows';
+let wtFollowRequestVersion=0;
+async function wtFollowRequest(method,query='',payload=null){
+ const cfg=getAuthConfig();
+ let session=getAuthSession();
+ const headers={'apikey':cfg.key,'Accept':'application/json','Content-Type':'application/json'};
+ if(session?.access_token){
+  session=await ensureFreshSession();
+  headers.Authorization='Bearer '+session.access_token;
+ }else headers.Authorization='Bearer '+cfg.key;
+ if(method==='POST')headers.Prefer='return=minimal';
+ const url=cfg.url.replace(/\/+$/,'')+'/rest/v1/'+WT_FOLLOW_TABLE+query;
+ const response=await fetch(url,{method,headers,body:payload?JSON.stringify(payload):undefined,cache:'no-store'});
+ if(!response.ok){
+  let message='Follow request failed ('+response.status+').';
+  try{const e=await response.json();message=e.message||e.details||message}catch(e){}
+  throw new Error(message);
+ }
+ if(method==='GET')return response.json();
+ return null;
+}
+function wtFollowMessage(area,message){const node=area.querySelector('.wt-follow-message');if(node)node.textContent=message}
+async function wtFollowRender(username,area){
+ const requestId=++wtFollowRequestVersion;
+ const myId=getAuthSession()?.user?.id||null;
+ const counts=wtPublicNode('div',undefined,'wt-follow-counts');
+ const followers=wtPublicNode('button','Followers: …','wt-follow-count');
+ const following=wtPublicNode('button','Following: …','wt-follow-count');
+ followers.type=following.type='button';
+ counts.append(followers,following);area.append(counts);
+ const action=wtPublicNode('button',myId?'Loading…':'Sign in to follow','btn primary small wt-follow-button');
+ action.type='button';action.disabled=true;
+ const message=wtPublicNode('p','','wt-follow-message hint');
+ area.append(action,message);
+ try{
+  const profiles=await wtPublicRequest('GET','?select=user_id,username&username=eq.'+encodeURIComponent(username)+'&is_public=eq.true&limit=1');
+  if(requestId!==wtFollowRequestVersion||!area.isConnected)return;
+  const profile=profiles?.[0];
+  if(!profile){wtFollowMessage(area,'Profile unavailable.');return}
+  const target=profile.user_id;
+  const [inbound,outbound]=await Promise.all([
+   wtFollowRequest('GET','?select=follower_id&following_id=eq.'+encodeURIComponent(target)),
+   wtFollowRequest('GET','?select=following_id&follower_id=eq.'+encodeURIComponent(target))
+  ]);
+  if(requestId!==wtFollowRequestVersion||!area.isConnected)return;
+  followers.textContent='Followers: '+inbound.length;
+  following.textContent='Following: '+outbound.length;
+  followers.onclick=()=>wtFollowShowList('Followers',inbound.map(x=>x.follower_id),area);
+  following.onclick=()=>wtFollowShowList('Following',outbound.map(x=>x.following_id),area);
+  if(!myId){action.textContent='Sign in to follow';action.disabled=true;return}
+  if(myId===target){action.textContent='Your profile';action.disabled=true;return}
+  let isFollowing=inbound.some(x=>x.follower_id===myId);
+  function update(){action.textContent=isFollowing?'Following ✓':'Follow';action.disabled=false;action.classList.toggle('wt-follow-active',isFollowing)}
+  update();
+  action.onclick=async()=>{
+   action.disabled=true;wtFollowMessage(area,'Saving…');
+   try{
+    if(isFollowing)await wtFollowRequest('DELETE','?follower_id=eq.'+encodeURIComponent(myId)+'&following_id=eq.'+encodeURIComponent(target));
+    else await wtFollowRequest('POST','',[{follower_id:myId,following_id:target}]);
+    isFollowing=!isFollowing;
+    followers.textContent='Followers: '+(inbound.length+(isFollowing?1:0)-(inbound.some(x=>x.follower_id===myId)?1:0));
+    wtFollowMessage(area,isFollowing?'You are now following this user.':'You unfollowed this user.');
+   }catch(e){wtFollowMessage(area,e.message)}
+   update();
+  };
+ }catch(e){
+  action.disabled=true;wtFollowMessage(area,'Unable to load follows: '+e.message);
+ }
+}
+async function wtFollowShowList(label,ids,area){
+ let panel=area.querySelector('.wt-follow-list');
+ if(!panel){panel=wtPublicNode('div',undefined,'wt-follow-list');area.append(panel)}
+ panel.replaceChildren(wtPublicNode('strong',label));
+ if(!ids.length){panel.append(wtPublicNode('p','No users yet.','hint'));return}
+ const limit=ids.slice(0,30);
+ try{
+  const rows=await wtPublicRequest('GET','?select=username,display_name&is_public=eq.true&user_id=in.('+limit.join(',')+')');
+  if(!rows?.length){panel.append(wtPublicNode('p','No visible public profiles.','hint'));return}
+  rows.forEach(p=>{
+   const b=wtPublicNode('button',(p.display_name||p.username)+' · @'+p.username,'btn small');
+   b.type='button';b.addEventListener('click',()=>wtOpenPublicProfile(p.username,true));panel.append(b);
+  });
+  if(ids.length>30)panel.append(wtPublicNode('p','Showing the first 30 users.','hint'));
+ }catch(e){panel.append(wtPublicNode('p','Could not load users: '+e.message,'hint'))}
+}
 </script></body></html>
